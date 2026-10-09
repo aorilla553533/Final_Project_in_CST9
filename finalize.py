@@ -49,7 +49,7 @@ RESULTS_DIR = PROJECT_ROOT / "results"
 for _d in (DATA_DIR, MODEL_DIR, RESULTS_DIR):
     _d.mkdir(exist_ok=True)
 
-DATASET_FILE = DATA_DIR / "unified_scam_detection_dataset.csv"
+DATASET_FILE = PROJECT_ROOT / "unified_scam_detection_dataset.csv"
 RANDOM_STATE = 42
 TEST_SIZE = 0.30
 

@@ -901,7 +901,7 @@ def render_dashboard(metrics: dict, figures: dict) -> None:
         cols = st.columns(2)
         for col, k in zip(cols, keys[i:i + 2]):
             with col:
-                st.image(figures[k], caption=captions[k], use_container_width=True)
+                st.image(figures[k], caption=captions[k], use_column_width=True)
 
 
 def main() -> None:

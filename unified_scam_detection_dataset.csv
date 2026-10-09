@@ -1,0 +1,1001 @@
+conversation_id,scammer_message,user_response,response_type,scam_tactic,risk_score,risk_level,effectiveness_score,timestamp,urgency_keywords,fake_fee_mentions,emotional_manipulation,isolation_attempts,authority_claims,threat_indicators,total_scam_indicators,contains_verification,contains_refusal,contains_expertise,response_strength,is_scam,scam_category,user_success
+SCAM_0001,This is a mandatory security procedure,I'll check with the bank first,expert_mention,emotional_manipulation,4,medium,5,6/14/2025 5:08,0,0,0,0,2,0,2,1,0,0,5,1,emotional_manipulation,1
+SCAM_0002,Account activation charge,I work in cybersecurity and I know these tactics,expert_mention,threat,9,critical,4,9/21/2025 17:00,0,1,0,0,0,0,1,0,1,1,4,1,threat,1
+SCAM_0003,I will lose my job if you don't pay,I'll wait for technical support response,questioning,isolation,10,critical,3,12/11/2024 9:50,0,1,0,0,0,1,2,0,0,0,3,1,isolation,0
+SCAM_0004,Document processing fee,I work in cybersecurity and I know these tactics,expert_mention,fake_fee,10,critical,4,11/18/2025 5:38,0,1,0,0,0,0,1,0,1,1,4,1,fake_fee,1
+SCAM_0005,There are limited offers today only,"I'm not in a hurry, I can wait",delaying,threat,9,critical,3,3/27/2025 4:12,0,0,0,0,0,0,0,0,1,0,3,1,threat,0
+SCAM_0006,Don't talk to the bank about this,There is no such thing as IMF code,refusing,isolation,9,critical,4,3/27/2025 23:05,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0007,Account activation charge,I'll check the company's official website,refusing,threat,9,critical,5,3/19/2025 3:23,0,1,0,0,0,0,1,1,0,0,5,1,threat,1
+SCAM_0008,Security deposit needed for verification,I prefer to wait for official communication,questioning,isolation,9,critical,4,7/26/2025 6:36,0,0,0,0,1,0,1,0,0,0,4,1,isolation,1
+SCAM_0009,You need to pay IMF code to withdraw your salary,I'll report to the authorities,verification,urgency,6,high,4,7/28/2025 22:04,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0010,There are limited offers today only,This is obvious scam,delaying,fake_fee,8,high,3,9/20/2025 12:51,0,0,0,0,0,0,0,0,0,0,3,1,fake_fee,0
+SCAM_0011,Follow the instructions exactly,I'll check the company's official website,expert_mention,threat,9,critical,5,5/8/2025 10:00,0,0,0,0,0,0,0,1,0,0,5,1,threat,1
+SCAM_0012,Document processing fee,I'll check the company's official website,delaying,fake_authority,7,high,3,8/15/2025 18:54,0,1,0,0,0,0,1,1,0,0,3,1,fake_authority,0
+SCAM_0013,International transfer authorization code,I work in cybersecurity and I know these tactics,verification,urgency,6,high,5,9/13/2025 3:23,0,0,0,0,0,0,0,0,1,1,5,1,urgency,1
+SCAM_0014,Tax clearance certificate fee required,There is no such thing as IMF code,expert_mention,threat,9,critical,4,11/27/2024 16:54,0,1,0,0,0,0,1,0,1,0,4,1,threat,1
+SCAM_0015,Security deposit needed for verification,I'll think about it,refusing,isolation,9,critical,5,8/5/2025 5:03,0,0,0,0,1,0,1,0,0,0,5,1,isolation,1
+SCAM_0016,Follow the instructions exactly,This doesn't make sense,questioning,urgency,9,critical,4,6/10/2025 16:20,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0017,There are additional fees required for transaction,Let me verify this with customer service,expert_mention,fake_authority,9,critical,4,1/24/2025 3:40,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0018,Don't talk to the bank about this,This doesn't make sense,questioning, ,8,high,3,4/12/2025 2:07,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0019,This is 100% legitimate process,Can you provide official documentation?,refusing,fake_fee,8,high,4,9/7/2025 15:27,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0020,This is your last chance to withdraw,Can you provide official documentation?,verification,threat,9,critical,4,7/7/2025 12:17,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0021,I will lose my job if you don't pay,I work in cybersecurity and I know these tactics,expert_mention,threat,10,critical,5,4/30/2025 4:48,0,1,0,0,0,1,2,0,1,1,5,1,threat,1
+SCAM_0022,This is your last chance to withdraw,Can you provide official documentation?,verification,threat,10,critical,4,10/17/2025 5:24,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0023,There are limited offers today only,There is no such thing as IMF code,refusing,urgency,7,high,4,10/24/2025 23:03,0,0,0,0,0,0,0,0,1,0,4,1,urgency,1
+SCAM_0024,I will lose my job if you don't pay,Why the rush?,expert_mention,threat,10,critical,4,5/18/2025 17:28,0,1,0,0,0,1,2,0,0,0,4,1,threat,1
+SCAM_0025,Don't talk to the bank about this,The bank confirmed these requirements don't exist,questioning,threat,10,critical,3,11/29/2024 13:14,0,0,0,0,0,0,0,1,0,0,3,1,threat,0
+SCAM_0026,This is your last chance to withdraw,Let me verify this with customer service,refusing,fake_fee,10,critical,5,6/28/2025 23:45,0,0,0,0,0,0,0,1,0,0,5,1,fake_fee,1
+SCAM_0027,You need to pay IMF code to withdraw your salary,This contradicts standard banking procedures,verification,threat,10,critical,4,5/23/2025 6:21,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0028,I will lose my job if you don't pay,This doesn't make sense,expert_mention,emotional_manipulation,4,medium,4,11/27/2024 3:35,0,1,0,0,0,1,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0029,Security deposit needed for verification,Let me verify this with customer service,verification,threat,10,critical,4,9/4/2025 11:43,0,0,0,0,1,0,1,1,0,0,4,1,threat,1
+SCAM_0030,You must pay immediately before expiration,The bank confirmed these requirements don't exist,expert_mention,emotional_manipulation,7,high,4,11/28/2024 11:07,1,1,0,0,0,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0031,Urgent payment required to unlock funds,I need to consult with financial advisor,counter_attack,urgency,6,high,5,12/16/2024 4:12,1,1,0,0,0,0,2,0,0,0,5,1,urgency,1
+SCAM_0032,Tax clearance certificate fee required,This contradicts standard banking procedures,verification,fake_authority,8,high,4,1/30/2025 9:02,0,1,0,0,0,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0033,Don't talk to the bank about this,I'll report to the authorities,counter_attack,fake_fee,7,high,5,7/12/2025 11:56,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0034,Follow the instructions exactly,This seems suspicious,counter_attack,isolation,9,critical,4,6/27/2025 1:45,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0035,This is 100% legitimate process,This doesn't make sense,counter_attack,fake_authority,9,critical,4,10/2/2025 17:36,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0036,This is your last chance to withdraw,Can you provide official documentation?,delaying,fake_authority,8,high,3,5/17/2025 4:11,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0037,I will lose my job if you don't pay,I work in cybersecurity and I know these tactics,counter_attack,emotional_manipulation,4,medium,5,1/22/2025 7:49,0,1,0,0,0,1,2,0,1,1,5,1,emotional_manipulation,1
+SCAM_0038,There are additional fees required for transaction,I'll check with the bank first,delaying,urgency,9,critical,3,10/30/2025 9:57,0,1,0,0,0,0,1,1,0,0,3,1,urgency,0
+SCAM_0039,This is your last chance to withdraw,This is obvious scam,questioning,fake_authority,9,critical,3,10/30/2025 8:19,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0040,Document processing fee,There is no such thing as IMF code,refusing,fake_authority,9,critical,4,8/22/2025 4:48,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0041,Your account will be blocked if you don't pay,Why the rush?,delaying,threat,9,critical,4,7/2/2025 11:13,0,1,0,0,0,1,2,0,0,0,4,1,threat,1
+SCAM_0042,Tax clearance certificate fee required,Let me verify this with customer service,verification,threat,10,critical,5,10/12/2025 10:28,0,1,0,0,0,0,1,1,0,0,5,1,threat,1
+SCAM_0043,Emergency service charge,I'll report to the authorities,verification,fake_fee,8,high,5,9/7/2025 4:18,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0044,This is 100% legitimate process,The bank confirmed these requirements don't exist,counter_attack,threat,10,critical,5,4/25/2025 7:14,0,0,0,0,0,0,0,1,0,0,5,1,threat,1
+SCAM_0045,Don't talk to the bank about this,I'll wait for technical support response,expert_mention,urgency,8,high,5,2/13/2025 2:59,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0046,There are limited offers today only,I'll think about it,refusing,fake_fee,8,high,5,4/17/2025 10:49,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0047,International transfer authorization code,I need to consult with financial advisor,counter_attack,emotional_manipulation,4,medium,5,10/22/2025 21:37,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0048,Your account will be blocked if you don't pay,"I have enough money, I don't need to withdraw now",verification,emotional_manipulation,6,high,4,5/18/2025 9:08,0,1,0,0,0,1,2,0,1,0,4,1,emotional_manipulation,1
+SCAM_0049,Document processing fee,I prefer to wait for official communication,questioning,fake_authority,7,high,5,5/21/2025 10:35,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0050,You need to pay IMF code to withdraw your salary,Why the rush?,counter_attack,threat,10,critical,4,8/6/2025 1:09,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0051,Document processing fee,I work in cybersecurity and I know these tactics,counter_attack,fake_fee,7,high,5,6/21/2025 21:38,0,1,0,0,0,0,1,0,1,1,5,1,fake_fee,1
+SCAM_0052,Tax clearance certificate fee required,I'll wait for technical support response,counter_attack,threat,9,critical,5,1/4/2025 7:08,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0053,You must pay immediately before expiration,The bank confirmed these requirements don't exist,expert_mention,fake_authority,8,high,5,11/5/2025 11:41,1,1,0,0,0,0,2,1,0,0,5,1,fake_authority,1
+SCAM_0054,You must pay immediately before expiration,I need to consult with financial advisor,refusing,isolation,10,critical,4,11/7/2025 14:32,1,1,0,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0055,You must pay immediately before expiration,I'll verify with official sources,refusing,emotional_manipulation,7,high,4,5/3/2025 9:24,1,1,0,0,0,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0056,Follow the instructions exactly,I'll report to the authorities,verification,urgency,8,high,4,11/21/2025 19:33,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0057,Don't talk to the bank about this,I'll wait for technical support response,counter_attack,fake_fee,10,critical,5,12/30/2024 19:58,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0058,Urgent payment required to unlock funds,I work in cybersecurity and I know these tactics,verification,fake_authority,8,high,5,9/27/2025 8:07,1,1,0,0,0,0,2,0,1,1,5,1,fake_authority,1
+SCAM_0059,Your account will be blocked if you don't pay,Can you provide official documentation?,verification,isolation,9,critical,5,5/7/2025 14:56,0,1,0,0,0,1,2,0,0,0,5,1,isolation,1
+SCAM_0060,International transfer authorization code,This doesn't make sense,counter_attack,threat,9,critical,4,1/10/2025 23:47,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0061,Your account will be blocked if you don't pay,Why the rush?,expert_mention,urgency,9,critical,4,7/14/2025 2:30,0,1,0,0,0,1,2,0,0,0,4,1,urgency,1
+SCAM_0062,Account activation charge,There is no such thing as IMF code,verification,fake_fee,7,high,5,9/23/2025 9:10,0,1,0,0,0,0,1,0,1,0,5,1,fake_fee,1
+SCAM_0063,There are additional fees required for transaction,I'll verify with official sources,questioning,emotional_manipulation,5,medium,4,3/27/2025 11:55,0,1,0,0,0,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0064,Emergency service charge,The bank confirmed these requirements don't exist,counter_attack,fake_authority,9,critical,5,8/14/2025 0:20,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0065,You must pay immediately before expiration,Can you provide official documentation?,refusing,fake_authority,8,high,5,9/15/2025 3:51,1,1,0,0,0,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0066,Document processing fee,This is obvious scam,expert_mention,emotional_manipulation,6,high,5,12/23/2024 15:10,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0067,Emergency service charge,I'll report to the authorities,expert_mention,threat,10,critical,5,4/7/2025 22:59,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0068,Security deposit needed for verification,I'll think about it,delaying,urgency,8,high,4,2/14/2025 16:37,0,0,0,0,1,0,1,0,0,0,4,1,urgency,1
+SCAM_0069,Don't talk to the bank about this,This doesn't make sense,verification,emotional_manipulation,7,high,4,1/2/2025 22:09,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0070,Don't talk to the bank about this,I need to consult with financial advisor,questioning,fake_authority,7,high,5,3/26/2025 7:05,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0071,International transfer authorization code,I'll wait for technical support response,questioning,urgency,9,critical,5,6/26/2025 18:10,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0072,Trust me my dear,There is no such thing as IMF code,expert_mention,emotional_manipulation,4,medium,4,2/16/2025 10:13,0,0,2,0,0,0,2,0,1,0,4,1,emotional_manipulation,1
+SCAM_0073,This is a mandatory security procedure,Can you provide official documentation?,questioning,threat,9,critical,3,9/16/2025 16:57,0,0,0,0,2,0,2,0,0,0,3,1,threat,0
+SCAM_0074,I will lose my job if you don't pay,"I have enough money, I don't need to withdraw now",verification,fake_fee,7,high,4,11/19/2025 3:01,0,1,0,0,0,1,2,0,1,0,4,1,fake_fee,1
+SCAM_0075,You need to pay IMF code to withdraw your salary,I'll think about it,refusing,fake_fee,9,critical,4,7/16/2025 6:23,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0076,Currency conversion fee mandatory,This is obvious scam,counter_attack,threat,9,critical,5,12/2/2024 4:16,0,1,0,0,1,0,2,0,0,0,5,1,threat,1
+SCAM_0077,You must pay immediately before expiration,"I have enough money, I don't need to withdraw now",refusing,fake_authority,8,high,5,12/10/2024 12:48,1,1,0,0,0,0,2,0,1,0,5,1,fake_authority,1
+SCAM_0078,Security deposit needed for verification,I'll verify with official sources,counter_attack,isolation,8,high,5,5/14/2025 14:17,0,0,0,0,1,0,1,1,0,0,5,1,isolation,1
+SCAM_0079,You must pay immediately before expiration,Why the rush?,questioning,threat,10,critical,5,1/23/2025 15:45,1,1,0,0,0,0,2,0,0,0,5,1,threat,1
+SCAM_0080,Emergency service charge,This is obvious scam,refusing,fake_fee,9,critical,4,12/4/2024 14:11,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0081,Security deposit needed for verification,I'll check the company's official website,verification,fake_authority,7,high,4,2/19/2025 11:52,0,0,0,0,1,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0082,Document processing fee,This doesn't make sense,questioning,urgency,8,high,5,11/12/2025 15:31,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0083,Document processing fee,I prefer to wait for official communication,questioning,fake_fee,10,critical,3,2/3/2025 13:35,0,1,0,0,0,0,1,0,0,0,3,1,fake_fee,0
+SCAM_0084,Currency conversion fee mandatory,I'll wait for technical support response,refusing,isolation,8,high,5,8/17/2025 17:16,0,1,0,0,1,0,2,0,0,0,5,1,isolation,1
+SCAM_0085,Your account will be blocked if you don't pay,I'll report to the authorities,refusing,emotional_manipulation,6,high,5,3/7/2025 22:18,0,1,0,0,0,1,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0086,Security deposit needed for verification,I'll check with the bank first,counter_attack,fake_fee,10,critical,5,5/25/2025 1:38,0,0,0,0,1,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0087,There are limited offers today only,This seems suspicious,counter_attack,fake_fee,9,critical,4,10/27/2025 15:48,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0088,Currency conversion fee mandatory,This contradicts standard banking procedures,delaying,emotional_manipulation,5,medium,3,5/5/2025 2:52,0,1,0,0,1,0,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0089,International transfer authorization code,Can you provide official documentation?,verification,fake_authority,9,critical,5,10/7/2025 19:31,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0090,There are limited offers today only,This contradicts standard banking procedures,questioning,emotional_manipulation,7,high,4,11/27/2024 7:04,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0091,Tax clearance certificate fee required,Let me verify this with customer service,expert_mention,urgency,6,high,4,1/22/2025 21:57,0,1,0,0,0,0,1,1,0,0,4,1,urgency,1
+SCAM_0092,Tax clearance certificate fee required,This contradicts standard banking procedures,verification,fake_authority,8,high,5,3/11/2025 10:55,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0093,Account activation charge,This doesn't make sense,refusing,emotional_manipulation,5,medium,5,6/6/2025 4:33,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0094,This is 100% legitimate process,I'll check the company's official website,counter_attack,threat,10,critical,5,1/13/2025 20:24,0,0,0,0,0,0,0,1,0,0,5,1,threat,1
+SCAM_0095,Follow the instructions exactly,The bank confirmed these requirements don't exist,delaying,urgency,7,high,4,3/28/2025 18:25,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0096,Tax clearance certificate fee required,There is no such thing as IMF code,counter_attack,emotional_manipulation,7,high,5,4/24/2025 7:31,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0097,Tax clearance certificate fee required,This is obvious scam,counter_attack,fake_authority,7,high,4,5/23/2025 20:42,0,1,0,0,0,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0098,This is 100% legitimate process,This seems suspicious,delaying,emotional_manipulation,7,high,3,2/19/2025 9:52,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0099,Don't talk to the bank about this,This doesn't make sense,questioning,emotional_manipulation,6,high,3,6/29/2025 7:20,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0100,International transfer authorization code,Can you provide official documentation?,verification,fake_fee,7,high,4,8/1/2025 5:23,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0101,Don't talk to the bank about this,Why the rush?,expert_mention,fake_authority,9,critical,4,5/31/2025 4:51,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0102,Don't talk to the bank about this,Let me verify this with customer service,counter_attack,urgency,6,high,4,5/18/2025 18:30,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0103,There are limited offers today only,This seems suspicious,refusing,urgency,7,high,5,4/8/2025 12:23,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0104,Your account will be blocked if you don't pay,This seems suspicious,expert_mention,isolation,10,critical,4,12/18/2024 14:00,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0105,There are additional fees required for transaction,I work in cybersecurity and I know these tactics,refusing,emotional_manipulation,7,high,5,6/2/2025 17:56,0,1,0,0,0,0,1,0,1,1,5,1,emotional_manipulation,1
+SCAM_0106,International transfer authorization code,"I'm not in a hurry, I can wait",verification,emotional_manipulation,4,medium,4,9/8/2025 7:15,0,0,0,0,0,0,0,0,1,0,4,1,emotional_manipulation,1
+SCAM_0107,This is 100% legitimate process,Can you provide official documentation?,verification,threat,9,critical,5,5/3/2025 20:46,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0108,Urgent payment required to unlock funds,"I'm not in a hurry, I can wait",verification,threat,10,critical,5,12/2/2024 13:03,1,1,0,0,0,0,2,0,1,0,5,1,threat,1
+SCAM_0109,Urgent payment required to unlock funds,Let me verify this with customer service,questioning,fake_authority,9,critical,3,8/7/2025 21:22,1,1,0,0,0,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0110,Don't talk to the bank about this,I'll wait for technical support response,questioning,threat,9,critical,3,3/16/2025 12:17,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0111,This is a mandatory security procedure,"I have enough money, I don't need to withdraw now",questioning,isolation,10,critical,3,5/17/2025 4:03,0,0,0,0,2,0,2,0,1,0,3,1,isolation,0
+SCAM_0112,There are limited offers today only,This contradicts standard banking procedures,delaying,fake_fee,9,critical,3,11/7/2025 17:12,0,0,0,0,0,0,0,0,0,0,3,1,fake_fee,0
+SCAM_0113,This is 100% legitimate process,This doesn't make sense,expert_mention,threat,10,critical,5,5/24/2025 8:34,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0114,Your account will be blocked if you don't pay,I'll check the company's official website,expert_mention,fake_authority,9,critical,4,7/18/2025 7:24,0,1,0,0,0,1,2,1,0,0,4,1,fake_authority,1
+SCAM_0115,There are limited offers today only,This contradicts standard banking procedures,refusing,fake_fee,8,high,5,5/16/2025 7:05,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0116,Document processing fee,There is no such thing as IMF code,questioning,fake_fee,9,critical,3,6/15/2025 3:16,0,1,0,0,0,0,1,0,1,0,3,1,fake_fee,0
+SCAM_0117,This is 100% legitimate process,Can you provide official documentation?,questioning,threat,10,critical,3,12/8/2024 5:50,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0118,There are limited offers today only,This doesn't make sense,delaying,emotional_manipulation,5,medium,3,12/8/2024 12:06,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0119,This is 100% legitimate process,This doesn't make sense,verification,isolation,9,critical,4,12/19/2024 14:44,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0120,You must pay immediately before expiration,This doesn't make sense,verification,isolation,10,critical,4,11/6/2025 18:06,1,1,0,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0121,Security deposit needed for verification,"I have enough money, I don't need to withdraw now",refusing,threat,10,critical,5,6/26/2025 11:46,0,0,0,0,1,0,1,0,1,0,5,1,threat,1
+SCAM_0122,Account activation charge,I'll report to the authorities,verification,threat,10,critical,5,9/3/2025 8:43,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0123,Currency conversion fee mandatory,There is no such thing as IMF code,questioning,fake_fee,9,critical,3,8/19/2025 14:03,0,1,0,0,1,0,2,0,1,0,3,1,fake_fee,0
+SCAM_0124,Document processing fee,I'll verify with official sources,verification,fake_authority,8,high,4,11/12/2025 13:10,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0125,Emergency service charge,I need to consult with financial advisor,refusing,threat,9,critical,4,3/27/2025 9:06,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0126,Follow the instructions exactly,I'll check with the bank first,counter_attack,emotional_manipulation,5,medium,4,8/6/2025 9:50,0,0,0,0,0,0,0,1,0,0,4,1,emotional_manipulation,1
+SCAM_0127,Currency conversion fee mandatory,This doesn't make sense,refusing,urgency,8,high,5,11/28/2024 19:14,0,1,0,0,1,0,2,0,0,0,5,1,urgency,1
+SCAM_0128,Follow the instructions exactly,I need to consult with financial advisor,refusing,isolation,8,high,5,3/6/2025 16:09,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0129,There are limited offers today only,Can you provide official documentation?,expert_mention,emotional_manipulation,5,medium,5,7/17/2025 17:37,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0130,Don't talk to the bank about this,There is no such thing as IMF code,questioning,isolation,10,critical,4,7/31/2025 23:55,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0131,I will lose my job if you don't pay,This is obvious scam,expert_mention,fake_fee,7,high,4,5/28/2025 17:03,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0132,There are additional fees required for transaction,I'll check with the bank first,refusing,fake_authority,7,high,5,12/7/2024 19:27,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0133,This is your last chance to withdraw,Can you provide official documentation?,expert_mention,emotional_manipulation,7,high,4,12/1/2024 20:13,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0134,Urgent payment required to unlock funds,I'll wait for technical support response,delaying,urgency,9,critical,4,6/12/2025 10:07,1,1,0,0,0,0,2,0,0,0,4,1,urgency,1
+SCAM_0135,Trust me my dear,"I'm not in a hurry, I can wait",expert_mention,urgency,6,high,5,10/30/2025 23:21,0,0,2,0,0,0,2,0,1,0,5,1,urgency,1
+SCAM_0136,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",counter_attack,urgency,9,critical,5,2/9/2025 16:29,0,0,0,0,0,0,0,0,1,0,5,1,urgency,1
+SCAM_0137,There are additional fees required for transaction,I'll check the company's official website,verification,urgency,9,critical,5,4/29/2025 7:38,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0138,Tax clearance certificate fee required,"I have enough money, I don't need to withdraw now",verification,isolation,10,critical,4,4/16/2025 17:02,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0139,Security deposit needed for verification,"I'm not in a hurry, I can wait",expert_mention,fake_fee,10,critical,5,2/28/2025 19:36,0,0,0,0,1,0,1,0,1,0,5,1,fake_fee,1
+SCAM_0140,There are limited offers today only,This doesn't make sense,counter_attack,isolation,8,high,5,5/29/2025 9:13,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0141,Tax clearance certificate fee required,I'll check the company's official website,counter_attack,fake_authority,9,critical,5,5/17/2025 6:04,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0142,Emergency service charge,I'll check with the bank first,delaying,urgency,9,critical,3,5/10/2025 10:09,0,1,0,0,0,0,1,1,0,0,3,1,urgency,0
+SCAM_0143,There are additional fees required for transaction,"I have enough money, I don't need to withdraw now",verification,emotional_manipulation,6,high,5,9/19/2025 14:36,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0144,Security deposit needed for verification,I'll check the company's official website,counter_attack,fake_fee,9,critical,5,4/30/2025 5:17,0,0,0,0,1,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0145,Don't talk to the bank about this,This is obvious scam,expert_mention,urgency,8,high,5,4/28/2025 22:54,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0146,Tax clearance certificate fee required,"I'm not in a hurry, I can wait",questioning,fake_authority,7,high,5,10/22/2025 18:12,0,1,0,0,0,0,1,0,1,0,5,1,fake_authority,1
+SCAM_0147,This is 100% legitimate process,I'll check with the bank first,delaying,urgency,8,high,3,12/12/2024 7:34,0,0,0,0,0,0,0,1,0,0,3,1,urgency,0
+SCAM_0148,This is 100% legitimate process,I'll report to the authorities,refusing,fake_authority,9,critical,4,7/21/2025 17:48,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0149,Your account will be blocked if you don't pay,I'll check with the bank first,refusing,fake_authority,9,critical,5,10/10/2025 16:08,0,1,0,0,0,1,2,1,0,0,5,1,fake_authority,1
+SCAM_0150,Trust me my dear,I need to consult with financial advisor,expert_mention,threat,9,critical,4,1/2/2025 17:14,0,0,2,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0151,Currency conversion fee mandatory,There is no such thing as IMF code,questioning,threat,10,critical,3,6/12/2025 5:44,0,1,0,0,1,0,2,0,1,0,3,1,threat,0
+SCAM_0152,There are additional fees required for transaction,I prefer to wait for official communication,expert_mention,threat,9,critical,5,10/10/2025 1:39,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0153,Currency conversion fee mandatory,Why the rush?,delaying,fake_fee,9,critical,3,3/31/2025 13:38,0,1,0,0,1,0,2,0,0,0,3,1,fake_fee,0
+SCAM_0154,Document processing fee,The bank confirmed these requirements don't exist,expert_mention,urgency,9,critical,5,10/29/2025 11:13,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0155,You must pay immediately before expiration,I need to consult with financial advisor,counter_attack,threat,9,critical,4,4/25/2025 23:41,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0156,This is your last chance to withdraw,I'll verify with official sources,questioning,urgency,9,critical,5,3/27/2025 11:30,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0157,You must pay immediately before expiration,This contradicts standard banking procedures,expert_mention,emotional_manipulation,4,medium,5,8/20/2025 19:36,1,1,0,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0158,International transfer authorization code,The bank confirmed these requirements don't exist,refusing,fake_authority,7,high,4,11/12/2025 16:12,0,0,0,0,0,0,0,1,0,0,4,1,fake_authority,1
+SCAM_0159,Your account will be blocked if you don't pay,This doesn't make sense,refusing,emotional_manipulation,5,medium,4,5/3/2025 4:05,0,1,0,0,0,1,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0160,Tax clearance certificate fee required,I'll check the company's official website,verification,fake_authority,8,high,5,8/1/2025 7:02,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0161,You must pay immediately before expiration,I'll check the company's official website,delaying,fake_authority,7,high,3,3/19/2025 7:03,1,1,0,0,0,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0162,Security deposit needed for verification,I'll report to the authorities,counter_attack,emotional_manipulation,4,medium,5,10/15/2025 18:25,0,0,0,0,1,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0163,Urgent payment required to unlock funds,I'll verify with official sources,verification,isolation,9,critical,4,3/3/2025 1:26,1,1,0,0,0,0,2,1,0,0,4,1,isolation,1
+SCAM_0164,I will lose my job if you don't pay,This is obvious scam,expert_mention,threat,9,critical,5,2/21/2025 10:59,0,1,0,0,0,1,2,0,0,0,5,1,threat,1
+SCAM_0165,Account activation charge,I'll check with the bank first,expert_mention,isolation,8,high,5,2/8/2025 4:26,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0166,Security deposit needed for verification,This doesn't make sense,questioning,isolation,10,critical,5,2/14/2025 1:41,0,0,0,0,1,0,1,0,0,0,5,1,isolation,1
+SCAM_0167,This is your last chance to withdraw,I prefer to wait for official communication,questioning,fake_authority,9,critical,5,4/30/2025 1:34,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0168,Tax clearance certificate fee required,"I'm not in a hurry, I can wait",counter_attack,isolation,8,high,4,5/17/2025 5:17,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0169,There are limited offers today only,This is obvious scam,refusing,isolation,9,critical,5,11/14/2025 22:17,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0170,You need to pay IMF code to withdraw your salary,I'll verify with official sources,expert_mention,fake_fee,10,critical,5,10/8/2025 8:08,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0171,This is your last chance to withdraw,Why the rush?,counter_attack,fake_fee,8,high,5,5/11/2025 19:46,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0172,Account activation charge,I'll think about it,refusing,emotional_manipulation,4,medium,4,6/2/2025 5:09,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0173,Emergency service charge,I'll think about it,expert_mention,threat,9,critical,4,5/28/2025 18:01,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0174,Currency conversion fee mandatory,This doesn't make sense,counter_attack,fake_authority,7,high,4,7/2/2025 20:56,0,1,0,0,1,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0175,Tax clearance certificate fee required,I prefer to wait for official communication,questioning,emotional_manipulation,7,high,3,6/23/2025 23:21,0,1,0,0,0,0,1,0,0,0,3,1,emotional_manipulation,0
+SCAM_0176,This is your last chance to withdraw,This seems suspicious,verification,fake_fee,8,high,4,8/17/2025 23:46,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0177,Document processing fee,I'll wait for technical support response,refusing,fake_authority,8,high,5,11/19/2025 9:40,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0178,You must pay immediately before expiration,Can you provide official documentation?,questioning,urgency,6,high,3,5/26/2025 8:00,1,1,0,0,0,0,2,0,0,0,3,1,urgency,0
+SCAM_0179,I will lose my job if you don't pay,This is obvious scam,refusing,fake_authority,9,critical,4,2/16/2025 16:56,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0180,Don't talk to the bank about this,This doesn't make sense,counter_attack,urgency,9,critical,5,10/12/2025 8:11,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0181,International transfer authorization code,I'll verify with official sources,verification,fake_fee,8,high,4,12/20/2024 21:21,0,0,0,0,0,0,0,1,0,0,4,1,fake_fee,1
+SCAM_0182,This is 100% legitimate process,I'll verify with official sources,verification,fake_authority,8,high,4,4/6/2025 1:08,0,0,0,0,0,0,0,1,0,0,4,1,fake_authority,1
+SCAM_0183,You need to pay IMF code to withdraw your salary,Why the rush?,delaying,threat,9,critical,4,3/17/2025 1:20,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0184,There are additional fees required for transaction,This doesn't make sense,expert_mention,emotional_manipulation,4,medium,4,6/2/2025 16:18,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0185,Currency conversion fee mandatory,Can you provide official documentation?,questioning,fake_fee,7,high,5,6/27/2025 2:48,0,1,0,0,1,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0186,This is a mandatory security procedure,I'll verify with official sources,refusing,emotional_manipulation,6,high,4,3/7/2025 10:55,0,0,0,0,2,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0187,Security deposit needed for verification,I prefer to wait for official communication,expert_mention,isolation,8,high,5,5/3/2025 3:54,0,0,0,0,1,0,1,0,0,0,5,1,isolation,1
+SCAM_0188,You must pay immediately before expiration,The bank confirmed these requirements don't exist,verification,fake_authority,8,high,4,9/5/2025 4:40,1,1,0,0,0,0,2,1,0,0,4,1,fake_authority,1
+SCAM_0189,This is a mandatory security procedure,The bank confirmed these requirements don't exist,counter_attack,threat,9,critical,5,10/24/2025 18:35,0,0,0,0,2,0,2,1,0,0,5,1,threat,1
+SCAM_0190,International transfer authorization code,This seems suspicious,questioning,fake_authority,9,critical,3,2/13/2025 13:32,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0191,You must pay immediately before expiration,I'll check the company's official website,verification,fake_authority,9,critical,4,4/18/2025 23:05,1,1,0,0,0,0,2,1,0,0,4,1,fake_authority,1
+SCAM_0192,This is 100% legitimate process,Why the rush?,expert_mention,urgency,8,high,5,12/8/2024 19:03,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0193,You need to pay IMF code to withdraw your salary,I'll think about it,counter_attack,emotional_manipulation,6,high,5,9/8/2025 13:38,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0194,Trust me my dear,Let me verify this with customer service,expert_mention,fake_fee,9,critical,4,7/28/2025 2:21,0,0,2,0,0,0,2,1,0,0,4,1,fake_fee,1
+SCAM_0195,Don't talk to the bank about this,This contradicts standard banking procedures,questioning,fake_fee,8,high,3,7/24/2025 6:09,0,0,0,0,0,0,0,0,0,0,3,1,fake_fee,0
+SCAM_0196,Don't talk to the bank about this,I'll verify with official sources,delaying,isolation,10,critical,4,4/11/2025 1:27,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0197,You must pay immediately before expiration,Can you provide official documentation?,refusing,emotional_manipulation,5,medium,5,12/31/2024 8:24,1,1,0,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0198,Follow the instructions exactly,I'll check the company's official website,delaying,urgency,6,high,4,6/27/2025 11:01,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0199,This is a mandatory security procedure,I work in cybersecurity and I know these tactics,verification,urgency,7,high,5,5/28/2025 18:55,0,0,0,0,2,0,2,0,1,1,5,1,urgency,1
+SCAM_0200,You must pay immediately before expiration,Let me verify this with customer service,questioning,fake_authority,8,high,3,4/16/2025 6:06,1,1,0,0,0,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0201,I will lose my job if you don't pay,Can you provide official documentation?,refusing,urgency,9,critical,4,11/7/2025 7:10,0,1,0,0,0,1,2,0,0,0,4,1,urgency,1
+SCAM_0202,Account activation charge,"I'm not in a hurry, I can wait",delaying,isolation,9,critical,4,11/6/2025 9:05,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0203,Don't talk to the bank about this,"I'm not in a hurry, I can wait",counter_attack,fake_authority,7,high,4,12/22/2024 22:43,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0204,This is a mandatory security procedure,I'll check with the bank first,questioning,urgency,6,high,3,9/20/2025 17:18,0,0,0,0,2,0,2,1,0,0,3,1,urgency,0
+SCAM_0205,Your account will be blocked if you don't pay,This seems suspicious,refusing,fake_fee,10,critical,4,8/22/2025 11:41,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0206,There are limited offers today only,I work in cybersecurity and I know these tactics,delaying,emotional_manipulation,7,high,4,3/25/2025 2:34,0,0,0,0,0,0,0,0,1,1,4,1,emotional_manipulation,1
+SCAM_0207,Urgent payment required to unlock funds,"I have enough money, I don't need to withdraw now",counter_attack,urgency,8,high,5,2/23/2025 22:10,1,1,0,0,0,0,2,0,1,0,5,1,urgency,1
+SCAM_0208,You need to pay IMF code to withdraw your salary,I'll verify with official sources,verification,urgency,6,high,5,12/22/2024 23:24,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0209,Account activation charge,There is no such thing as IMF code,delaying,fake_authority,9,critical,4,12/7/2024 14:59,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0210,Document processing fee,I work in cybersecurity and I know these tactics,counter_attack,fake_authority,8,high,4,4/19/2025 9:16,0,1,0,0,0,0,1,0,1,1,4,1,fake_authority,1
+SCAM_0211,I will lose my job if you don't pay,I prefer to wait for official communication,delaying,urgency,6,high,3,3/3/2025 22:04,0,1,0,0,0,1,2,0,0,0,3,1,urgency,0
+SCAM_0212,Document processing fee,I'll wait for technical support response,refusing,emotional_manipulation,5,medium,4,7/2/2025 15:08,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0213,Urgent payment required to unlock funds,This is obvious scam,expert_mention,threat,9,critical,4,2/6/2025 11:45,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0214,International transfer authorization code,"I have enough money, I don't need to withdraw now",refusing,threat,9,critical,5,1/25/2025 21:06,0,0,0,0,0,0,0,0,1,0,5,1,threat,1
+SCAM_0215,You must pay immediately before expiration,"I'm not in a hurry, I can wait",refusing,fake_fee,8,high,4,3/9/2025 2:44,1,1,0,0,0,0,2,0,1,0,4,1,fake_fee,1
+SCAM_0216,This is a mandatory security procedure,I need to consult with financial advisor,verification,threat,9,critical,4,3/23/2025 10:13,0,0,0,0,2,0,2,0,0,0,4,1,threat,1
+SCAM_0217,I will lose my job if you don't pay,I'll think about it,counter_attack,urgency,7,high,5,10/2/2025 12:59,0,1,0,0,0,1,2,0,0,0,5,1,urgency,1
+SCAM_0218,I will lose my job if you don't pay,I work in cybersecurity and I know these tactics,delaying,isolation,8,high,4,12/8/2024 10:16,0,1,0,0,0,1,2,0,1,1,4,1,isolation,1
+SCAM_0219,You need to pay IMF code to withdraw your salary,Why the rush?,questioning,emotional_manipulation,4,medium,5,8/5/2025 8:16,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0220,Urgent payment required to unlock funds,I need to consult with financial advisor,counter_attack,threat,10,critical,4,1/26/2025 22:52,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0221,Tax clearance certificate fee required,I'll report to the authorities,delaying,emotional_manipulation,4,medium,3,6/9/2025 12:37,0,1,0,0,0,0,1,0,0,0,3,1,emotional_manipulation,0
+SCAM_0222,Account activation charge,I need to consult with financial advisor,verification,urgency,9,critical,4,3/25/2025 13:34,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0223,Your account will be blocked if you don't pay,There is no such thing as IMF code,counter_attack,fake_fee,7,high,4,12/17/2024 13:57,0,1,0,0,0,1,2,0,1,0,4,1,fake_fee,1
+SCAM_0224,Trust me my dear,This contradicts standard banking procedures,counter_attack,fake_fee,7,high,5,10/24/2025 11:34,0,0,2,0,0,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0225,Security deposit needed for verification,I'll report to the authorities,counter_attack,threat,9,critical,4,5/13/2025 2:35,0,0,0,0,1,0,1,0,0,0,4,1,threat,1
+SCAM_0226,There are additional fees required for transaction,I need to consult with financial advisor,refusing,emotional_manipulation,5,medium,5,2/23/2025 3:04,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0227,I will lose my job if you don't pay,I'll report to the authorities,expert_mention,isolation,10,critical,5,8/27/2025 5:53,0,1,0,0,0,1,2,0,0,0,5,1,isolation,1
+SCAM_0228,This is 100% legitimate process,This contradicts standard banking procedures,counter_attack,urgency,6,high,4,4/19/2025 13:43,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0229,Trust me my dear,"I'm not in a hurry, I can wait",counter_attack,fake_authority,9,critical,4,6/8/2025 10:20,0,0,2,0,0,0,2,0,1,0,4,1,fake_authority,1
+SCAM_0230,There are limited offers today only,I'll think about it,refusing,threat,9,critical,5,5/25/2025 19:22,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0231,Trust me my dear,Why the rush?,verification,fake_fee,8,high,4,3/10/2025 23:58,0,0,2,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0232,Security deposit needed for verification,This doesn't make sense,refusing,isolation,9,critical,5,4/7/2025 10:35,0,0,0,0,1,0,1,0,0,0,5,1,isolation,1
+SCAM_0233,International transfer authorization code,This seems suspicious,refusing,emotional_manipulation,4,medium,5,8/13/2025 19:12,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0234,Your account will be blocked if you don't pay,I'll check with the bank first,expert_mention,isolation,10,critical,4,7/25/2025 20:10,0,1,0,0,0,1,2,1,0,0,4,1,isolation,1
+SCAM_0235,There are limited offers today only,This contradicts standard banking procedures,refusing,urgency,7,high,5,5/12/2025 10:18,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0236,There are limited offers today only,The bank confirmed these requirements don't exist,expert_mention,emotional_manipulation,4,medium,5,11/21/2025 4:08,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0237,International transfer authorization code,I work in cybersecurity and I know these tactics,verification,fake_fee,8,high,4,7/12/2025 10:25,0,0,0,0,0,0,0,0,1,1,4,1,fake_fee,1
+SCAM_0238,Your account will be blocked if you don't pay,I'll verify with official sources,expert_mention,urgency,9,critical,4,4/11/2025 19:36,0,1,0,0,0,1,2,1,0,0,4,1,urgency,1
+SCAM_0239,International transfer authorization code,This seems suspicious,delaying,fake_authority,8,high,4,3/4/2025 22:09,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0240,I will lose my job if you don't pay,This contradicts standard banking procedures,delaying,fake_fee,8,high,3,6/13/2025 1:40,0,1,0,0,0,1,2,0,0,0,3,1,fake_fee,0
+SCAM_0241,This is your last chance to withdraw,This seems suspicious,questioning,emotional_manipulation,5,medium,4,12/31/2024 12:51,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0242,Don't talk to the bank about this,The bank confirmed these requirements don't exist,expert_mention,urgency,8,high,4,1/28/2025 4:08,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0243,You need to pay IMF code to withdraw your salary,There is no such thing as IMF code,expert_mention,fake_fee,8,high,5,7/10/2025 5:01,0,1,0,0,0,0,1,0,1,0,5,1,fake_fee,1
+SCAM_0244,Currency conversion fee mandatory,I'll report to the authorities,verification,fake_authority,9,critical,4,10/18/2025 21:32,0,1,0,0,1,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0245,Trust me my dear,This contradicts standard banking procedures,delaying,emotional_manipulation,6,high,4,11/25/2024 1:52,0,0,2,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0246,You must pay immediately before expiration,I'll wait for technical support response,verification,threat,9,critical,4,9/6/2025 13:05,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0247,This is a mandatory security procedure,I'll think about it,questioning,emotional_manipulation,5,medium,4,12/5/2024 1:32,0,0,0,0,2,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0248,Emergency service charge,I'll report to the authorities,expert_mention,fake_fee,10,critical,5,4/12/2025 2:20,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0249,This is your last chance to withdraw,I'll wait for technical support response,delaying,threat,9,critical,3,2/13/2025 10:01,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0250,Your account will be blocked if you don't pay,I need to consult with financial advisor,counter_attack,fake_fee,7,high,4,5/6/2025 0:31,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0251,Security deposit needed for verification,The bank confirmed these requirements don't exist,counter_attack,emotional_manipulation,5,medium,4,7/8/2025 1:12,0,0,0,0,1,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0252,Don't talk to the bank about this,I'll verify with official sources,refusing,fake_fee,10,critical,5,11/9/2025 11:32,0,0,0,0,0,0,0,1,0,0,5,1,fake_fee,1
+SCAM_0253,I will lose my job if you don't pay,I'll wait for technical support response,counter_attack,threat,9,critical,5,10/23/2025 12:53,0,1,0,0,0,1,2,0,0,0,5,1,threat,1
+SCAM_0254,Tax clearance certificate fee required,I'll verify with official sources,refusing,fake_fee,7,high,5,2/15/2025 13:51,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0255,This is 100% legitimate process,I'll check the company's official website,verification,emotional_manipulation,6,high,5,4/27/2025 7:24,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0256,This is a mandatory security procedure,This doesn't make sense,delaying,isolation,9,critical,4,5/26/2025 14:07,0,0,0,0,2,0,2,0,0,0,4,1,isolation,1
+SCAM_0257,Account activation charge,Why the rush?,verification,isolation,10,critical,4,3/11/2025 10:47,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0258,Trust me my dear,This doesn't make sense,refusing,emotional_manipulation,5,medium,4,12/3/2024 9:31,0,0,2,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0259,There are limited offers today only,"I have enough money, I don't need to withdraw now",expert_mention,threat,9,critical,5,9/10/2025 9:45,0,0,0,0,0,0,0,0,1,0,5,1,threat,1
+SCAM_0260,Urgent payment required to unlock funds,"I have enough money, I don't need to withdraw now",questioning,threat,9,critical,3,10/5/2025 19:24,1,1,0,0,0,0,2,0,1,0,3,1,threat,0
+SCAM_0261,There are limited offers today only,Can you provide official documentation?,questioning,fake_authority,8,high,5,7/8/2025 14:17,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0262,You need to pay IMF code to withdraw your salary,I'll report to the authorities,delaying,fake_authority,7,high,3,12/20/2024 15:45,0,1,0,0,0,0,1,0,0,0,3,1,fake_authority,0
+SCAM_0263,Urgent payment required to unlock funds,There is no such thing as IMF code,counter_attack,emotional_manipulation,5,medium,4,6/18/2025 12:03,1,1,0,0,0,0,2,0,1,0,4,1,emotional_manipulation,1
+SCAM_0264,Emergency service charge,There is no such thing as IMF code,expert_mention,fake_authority,7,high,5,2/26/2025 16:23,0,1,0,0,0,0,1,0,1,0,5,1,fake_authority,1
+SCAM_0265,Account activation charge,I'll check the company's official website,counter_attack,fake_fee,9,critical,5,11/20/2025 13:52,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0266,This is a mandatory security procedure,"I'm not in a hurry, I can wait",counter_attack,urgency,8,high,5,10/10/2025 8:29,0,0,0,0,2,0,2,0,1,0,5,1,urgency,1
+SCAM_0267,Currency conversion fee mandatory,This contradicts standard banking procedures,counter_attack,isolation,8,high,5,12/30/2024 19:47,0,1,0,0,1,0,2,0,0,0,5,1,isolation,1
+SCAM_0268,Security deposit needed for verification,I'll wait for technical support response,delaying,fake_authority,7,high,4,12/21/2024 21:50,0,0,0,0,1,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0269,Trust me my dear,I'll check the company's official website,questioning,fake_authority,9,critical,3,8/28/2025 12:24,0,0,2,0,0,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0270,Account activation charge,I'll check with the bank first,expert_mention,threat,10,critical,4,5/22/2025 5:53,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0271,Urgent payment required to unlock funds,I'll check with the bank first,counter_attack,urgency,8,high,5,8/13/2025 17:17,1,1,0,0,0,0,2,1,0,0,5,1,urgency,1
+SCAM_0272,This is a mandatory security procedure,There is no such thing as IMF code,questioning,fake_authority,7,high,5,1/31/2025 0:06,0,0,0,0,2,0,2,0,1,0,5,1,fake_authority,1
+SCAM_0273,Emergency service charge,I'll report to the authorities,delaying,fake_fee,9,critical,3,1/19/2025 0:11,0,1,0,0,0,0,1,0,0,0,3,1,fake_fee,0
+SCAM_0274,I will lose my job if you don't pay,"I'm not in a hurry, I can wait",delaying,threat,10,critical,3,4/8/2025 23:24,0,1,0,0,0,1,2,0,1,0,3,1,threat,0
+SCAM_0275,Document processing fee,"I have enough money, I don't need to withdraw now",verification,fake_authority,8,high,4,9/22/2025 12:44,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0276,I will lose my job if you don't pay,I need to consult with financial advisor,counter_attack,isolation,9,critical,4,6/4/2025 4:48,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0277,You must pay immediately before expiration,I'll check with the bank first,verification,threat,10,critical,5,2/7/2025 5:15,1,1,0,0,0,0,2,1,0,0,5,1,threat,1
+SCAM_0278,Your account will be blocked if you don't pay,Can you provide official documentation?,verification,fake_authority,9,critical,4,11/10/2025 4:53,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0279,International transfer authorization code,"I'm not in a hurry, I can wait",questioning,urgency,7,high,4,2/15/2025 22:58,0,0,0,0,0,0,0,0,1,0,4,1,urgency,1
+SCAM_0280,There are additional fees required for transaction,There is no such thing as IMF code,expert_mention,emotional_manipulation,6,high,5,6/5/2025 14:19,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0281,There are limited offers today only,"I'm not in a hurry, I can wait",counter_attack,isolation,8,high,5,10/5/2025 2:50,0,0,0,0,0,0,0,0,1,0,5,1,isolation,1
+SCAM_0282,There are limited offers today only,I prefer to wait for official communication,expert_mention,fake_fee,10,critical,5,5/1/2025 5:14,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0283,You need to pay IMF code to withdraw your salary,The bank confirmed these requirements don't exist,questioning,urgency,8,high,5,11/3/2025 12:29,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0284,This is 100% legitimate process,This seems suspicious,delaying,isolation,8,high,4,7/21/2025 1:39,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0285,Tax clearance certificate fee required,I prefer to wait for official communication,verification,fake_fee,8,high,4,3/13/2025 20:26,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0286,International transfer authorization code,I prefer to wait for official communication,verification,fake_fee,10,critical,4,10/26/2025 11:05,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0287,Don't talk to the bank about this,I need to consult with financial advisor,counter_attack,emotional_manipulation,6,high,4,6/25/2025 17:04,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0288,Trust me my dear,I work in cybersecurity and I know these tactics,questioning,threat,10,critical,5,4/20/2025 3:30,0,0,2,0,0,0,2,0,1,1,5,1,threat,1
+SCAM_0289,Document processing fee,I'll report to the authorities,refusing,fake_authority,9,critical,5,7/1/2025 15:47,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0290,Trust me my dear,This is obvious scam,verification,emotional_manipulation,5,medium,4,2/24/2025 19:34,0,0,2,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0291,Account activation charge,I prefer to wait for official communication,expert_mention,threat,10,critical,4,9/6/2025 21:18,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0292,Don't talk to the bank about this,"I'm not in a hurry, I can wait",questioning,fake_authority,9,critical,3,1/30/2025 3:40,0,0,0,0,0,0,0,0,1,0,3,1,fake_authority,0
+SCAM_0293,Follow the instructions exactly,There is no such thing as IMF code,verification,fake_authority,8,high,5,11/1/2025 23:37,0,0,0,0,0,0,0,0,1,0,5,1,fake_authority,1
+SCAM_0294,Urgent payment required to unlock funds,This doesn't make sense,verification,urgency,8,high,5,3/25/2025 17:55,1,1,0,0,0,0,2,0,0,0,5,1,urgency,1
+SCAM_0295,Urgent payment required to unlock funds,Let me verify this with customer service,questioning,emotional_manipulation,6,high,3,6/15/2025 5:58,1,1,0,0,0,0,2,1,0,0,3,1,emotional_manipulation,0
+SCAM_0296,Document processing fee,I need to consult with financial advisor,delaying,emotional_manipulation,5,medium,4,7/12/2025 10:36,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0297,I will lose my job if you don't pay,Why the rush?,refusing,fake_authority,7,high,5,9/18/2025 9:01,0,1,0,0,0,1,2,0,0,0,5,1,fake_authority,1
+SCAM_0298,I will lose my job if you don't pay,"I'm not in a hurry, I can wait",delaying,fake_authority,7,high,3,5/21/2025 8:09,0,1,0,0,0,1,2,0,1,0,3,1,fake_authority,0
+SCAM_0299,Emergency service charge,"I'm not in a hurry, I can wait",delaying,fake_fee,9,critical,3,5/2/2025 21:39,0,1,0,0,0,0,1,0,1,0,3,1,fake_fee,0
+SCAM_0300,This is your last chance to withdraw,This contradicts standard banking procedures,refusing,isolation,9,critical,4,12/8/2024 10:45,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0301,I will lose my job if you don't pay,I'll check with the bank first,questioning,threat,10,critical,3,2/21/2025 12:01,0,1,0,0,0,1,2,1,0,0,3,1,threat,0
+SCAM_0302,There are limited offers today only,I'll think about it,counter_attack,isolation,10,critical,5,2/17/2025 19:49,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0303,This is a mandatory security procedure,I'll report to the authorities,delaying,fake_authority,7,high,4,8/17/2025 15:03,0,0,0,0,2,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0304,International transfer authorization code,This is obvious scam,refusing,fake_authority,7,high,5,5/28/2025 2:07,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0305,I will lose my job if you don't pay,I'll report to the authorities,refusing,emotional_manipulation,5,medium,5,8/2/2025 2:15,0,1,0,0,0,1,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0306,Currency conversion fee mandatory,I need to consult with financial advisor,expert_mention,isolation,8,high,4,11/24/2024 12:53,0,1,0,0,1,0,2,0,0,0,4,1,isolation,1
+SCAM_0307,I will lose my job if you don't pay,The bank confirmed these requirements don't exist,refusing,emotional_manipulation,7,high,5,6/27/2025 0:31,0,1,0,0,0,1,2,1,0,0,5,1,emotional_manipulation,1
+SCAM_0308,Your account will be blocked if you don't pay,The bank confirmed these requirements don't exist,expert_mention,emotional_manipulation,7,high,4,6/15/2025 22:11,0,1,0,0,0,1,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0309,Urgent payment required to unlock funds,This contradicts standard banking procedures,questioning,fake_fee,8,high,4,6/10/2025 18:31,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0310,Currency conversion fee mandatory,I'll think about it,questioning,fake_fee,10,critical,5,12/8/2024 7:49,0,1,0,0,1,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0311,Document processing fee,Why the rush?,verification,threat,9,critical,4,4/20/2025 16:59,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0312,This is 100% legitimate process,I'll check with the bank first,questioning,fake_authority,8,high,3,6/11/2025 4:23,0,0,0,0,0,0,0,1,0,0,3,1,fake_authority,0
+SCAM_0313,You need to pay IMF code to withdraw your salary,I'll check the company's official website,refusing,urgency,7,high,5,7/6/2025 22:17,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0314,Currency conversion fee mandatory,I prefer to wait for official communication,expert_mention,threat,10,critical,4,8/9/2025 10:27,0,1,0,0,1,0,2,0,0,0,4,1,threat,1
+SCAM_0315,Emergency service charge,Can you provide official documentation?,refusing,threat,10,critical,4,3/6/2025 12:30,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0316,Your account will be blocked if you don't pay,Can you provide official documentation?,expert_mention,fake_fee,9,critical,4,1/13/2025 14:55,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0317,There are additional fees required for transaction,I'll verify with official sources,questioning,urgency,8,high,3,6/8/2025 19:39,0,1,0,0,0,0,1,1,0,0,3,1,urgency,0
+SCAM_0318,Urgent payment required to unlock funds,Can you provide official documentation?,delaying,threat,9,critical,3,6/23/2025 22:32,1,1,0,0,0,0,2,0,0,0,3,1,threat,0
+SCAM_0319,Account activation charge,This contradicts standard banking procedures,questioning,emotional_manipulation,7,high,4,10/2/2025 7:35,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0320,Trust me my dear,Let me verify this with customer service,questioning,isolation,9,critical,3,11/13/2025 5:49,0,0,2,0,0,0,2,1,0,0,3,1,isolation,0
+SCAM_0321,There are additional fees required for transaction,There is no such thing as IMF code,refusing,threat,10,critical,4,11/22/2025 11:48,0,1,0,0,0,0,1,0,1,0,4,1,threat,1
+SCAM_0322,There are limited offers today only,"I have enough money, I don't need to withdraw now",refusing,fake_fee,9,critical,5,8/14/2025 2:18,0,0,0,0,0,0,0,0,1,0,5,1,fake_fee,1
+SCAM_0323,You must pay immediately before expiration,This contradicts standard banking procedures,delaying,isolation,10,critical,4,3/6/2025 17:36,1,1,0,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0324,You must pay immediately before expiration,I'll check the company's official website,counter_attack,urgency,6,high,5,10/6/2025 5:27,1,1,0,0,0,0,2,1,0,0,5,1,urgency,1
+SCAM_0325,There are additional fees required for transaction,"I have enough money, I don't need to withdraw now",delaying,fake_fee,10,critical,3,11/28/2024 2:52,0,1,0,0,0,0,1,0,1,0,3,1,fake_fee,0
+SCAM_0326,Emergency service charge,This seems suspicious,questioning,urgency,8,high,5,12/29/2024 14:10,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0327,You must pay immediately before expiration,This is obvious scam,questioning,urgency,7,high,5,5/21/2025 21:55,1,1,0,0,0,0,2,0,0,0,5,1,urgency,1
+SCAM_0328,This is a mandatory security procedure,Let me verify this with customer service,refusing,threat,10,critical,4,5/30/2025 2:14,0,0,0,0,2,0,2,1,0,0,4,1,threat,1
+SCAM_0329,There are limited offers today only,Why the rush?,expert_mention,isolation,9,critical,5,8/28/2025 14:21,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0330,This is 100% legitimate process,I prefer to wait for official communication,questioning,fake_authority,9,critical,3,7/12/2025 12:32,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0331,This is a mandatory security procedure,There is no such thing as IMF code,counter_attack,emotional_manipulation,4,medium,5,7/10/2025 0:49,0,0,0,0,2,0,2,0,1,0,5,1,emotional_manipulation,1
+SCAM_0332,You must pay immediately before expiration,I'll verify with official sources,counter_attack,urgency,8,high,4,3/15/2025 13:25,1,1,0,0,0,0,2,1,0,0,4,1,urgency,1
+SCAM_0333,Don't talk to the bank about this,I prefer to wait for official communication,questioning,threat,10,critical,5,5/29/2025 22:27,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0334,Tax clearance certificate fee required,I prefer to wait for official communication,verification,fake_authority,9,critical,5,12/5/2024 8:04,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0335,Account activation charge,This doesn't make sense,refusing,fake_fee,10,critical,4,2/22/2025 14:49,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0336,Don't talk to the bank about this,This seems suspicious,refusing,isolation,9,critical,4,11/9/2025 23:59,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0337,This is 100% legitimate process,I'll think about it,refusing,fake_authority,9,critical,5,9/11/2025 19:19,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0338,Don't talk to the bank about this,I prefer to wait for official communication,delaying,emotional_manipulation,5,medium,4,11/24/2024 7:03,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0339,Follow the instructions exactly,I'll check the company's official website,verification,emotional_manipulation,4,medium,5,6/11/2025 3:34,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0340,There are additional fees required for transaction,Can you provide official documentation?,expert_mention,fake_fee,9,critical,4,10/6/2025 9:57,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0341,I will lose my job if you don't pay,I need to consult with financial advisor,verification,fake_authority,8,high,4,3/10/2025 6:48,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0342,You need to pay IMF code to withdraw your salary,"I'm not in a hurry, I can wait",expert_mention,emotional_manipulation,6,high,5,9/19/2025 18:04,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0343,Urgent payment required to unlock funds,"I have enough money, I don't need to withdraw now",questioning,threat,9,critical,4,2/19/2025 7:44,1,1,0,0,0,0,2,0,1,0,4,1,threat,1
+SCAM_0344,Your account will be blocked if you don't pay,Let me verify this with customer service,verification,threat,9,critical,5,12/4/2024 11:39,0,1,0,0,0,1,2,1,0,0,5,1,threat,1
+SCAM_0345,This is your last chance to withdraw,I'll verify with official sources,delaying,threat,9,critical,4,7/22/2025 19:35,0,0,0,0,0,0,0,1,0,0,4,1,threat,1
+SCAM_0346,You need to pay IMF code to withdraw your salary,I prefer to wait for official communication,verification,emotional_manipulation,5,medium,4,3/16/2025 10:06,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0347,There are limited offers today only,I'll think about it,counter_attack,isolation,9,critical,4,7/2/2025 15:22,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0348,Follow the instructions exactly,This seems suspicious,delaying,isolation,10,critical,4,5/5/2025 8:37,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0349,Emergency service charge,Let me verify this with customer service,verification,fake_authority,8,high,5,3/10/2025 16:46,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0350,Follow the instructions exactly,This is obvious scam,counter_attack,isolation,10,critical,4,10/4/2025 7:57,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0351,Currency conversion fee mandatory,I'll wait for technical support response,delaying,fake_authority,9,critical,3,6/3/2025 3:36,0,1,0,0,1,0,2,0,0,0,3,1,fake_authority,0
+SCAM_0352,Tax clearance certificate fee required,This seems suspicious,refusing,emotional_manipulation,7,high,4,8/8/2025 4:17,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0353,Urgent payment required to unlock funds,I'll check the company's official website,counter_attack,fake_fee,7,high,4,2/9/2025 19:56,1,1,0,0,0,0,2,1,0,0,4,1,fake_fee,1
+SCAM_0354,This is 100% legitimate process,I'll think about it,questioning,urgency,6,high,3,5/13/2025 10:59,0,0,0,0,0,0,0,0,0,0,3,1,urgency,0
+SCAM_0355,Tax clearance certificate fee required,Why the rush?,counter_attack,fake_fee,8,high,5,12/20/2024 22:28,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0356,Your account will be blocked if you don't pay,There is no such thing as IMF code,expert_mention,fake_authority,8,high,4,7/20/2025 18:12,0,1,0,0,0,1,2,0,1,0,4,1,fake_authority,1
+SCAM_0357,Tax clearance certificate fee required,Let me verify this with customer service,refusing,fake_fee,10,critical,5,9/9/2025 11:22,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0358,Trust me my dear,I'll verify with official sources,verification,isolation,10,critical,4,5/24/2025 20:04,0,0,2,0,0,0,2,1,0,0,4,1,isolation,1
+SCAM_0359,Currency conversion fee mandatory,Let me verify this with customer service,verification,emotional_manipulation,4,medium,4,5/21/2025 9:53,0,1,0,0,1,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0360,This is a mandatory security procedure,I work in cybersecurity and I know these tactics,verification,isolation,8,high,4,12/16/2024 15:11,0,0,0,0,2,0,2,0,1,1,4,1,isolation,1
+SCAM_0361,Currency conversion fee mandatory,I'll check the company's official website,refusing,fake_fee,8,high,5,7/10/2025 0:55,0,1,0,0,1,0,2,1,0,0,5,1,fake_fee,1
+SCAM_0362,There are additional fees required for transaction,"I have enough money, I don't need to withdraw now",counter_attack,urgency,8,high,5,8/13/2025 16:59,0,1,0,0,0,0,1,0,1,0,5,1,urgency,1
+SCAM_0363,There are limited offers today only,This seems suspicious,delaying,emotional_manipulation,6,high,4,2/4/2025 19:30,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0364,Security deposit needed for verification,This seems suspicious,counter_attack,urgency,8,high,4,12/20/2024 11:40,0,0,0,0,1,0,1,0,0,0,4,1,urgency,1
+SCAM_0365,Currency conversion fee mandatory,I'll check with the bank first,counter_attack,fake_authority,9,critical,5,10/19/2025 16:33,0,1,0,0,1,0,2,1,0,0,5,1,fake_authority,1
+SCAM_0366,Tax clearance certificate fee required,This doesn't make sense,expert_mention,fake_authority,9,critical,5,2/22/2025 20:06,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0367,You need to pay IMF code to withdraw your salary,Let me verify this with customer service,refusing,threat,9,critical,4,8/25/2025 16:02,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0368,Trust me my dear,I'll wait for technical support response,questioning,fake_authority,7,high,5,7/3/2025 11:26,0,0,2,0,0,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0369,Emergency service charge,I'll verify with official sources,verification,isolation,9,critical,4,8/7/2025 12:34,0,1,0,0,0,0,1,1,0,0,4,1,isolation,1
+SCAM_0370,Emergency service charge,Let me verify this with customer service,expert_mention,threat,10,critical,4,7/17/2025 5:06,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0371,This is a mandatory security procedure,Can you provide official documentation?,refusing,threat,10,critical,5,1/29/2025 1:20,0,0,0,0,2,0,2,0,0,0,5,1,threat,1
+SCAM_0372,I will lose my job if you don't pay,Can you provide official documentation?,counter_attack,fake_fee,8,high,5,8/20/2025 0:01,0,1,0,0,0,1,2,0,0,0,5,1,fake_fee,1
+SCAM_0373,Currency conversion fee mandatory,I'll wait for technical support response,counter_attack,threat,10,critical,5,9/2/2025 14:20,0,1,0,0,1,0,2,0,0,0,5,1,threat,1
+SCAM_0374,Urgent payment required to unlock funds,This seems suspicious,refusing,urgency,9,critical,5,6/13/2025 4:32,1,1,0,0,0,0,2,0,0,0,5,1,urgency,1
+SCAM_0375,I will lose my job if you don't pay,I'll check the company's official website,questioning,isolation,8,high,3,4/21/2025 18:34,0,1,0,0,0,1,2,1,0,0,3,1,isolation,0
+SCAM_0376,Document processing fee,I'll check with the bank first,delaying,threat,10,critical,4,10/4/2025 20:19,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0377,Security deposit needed for verification,"I'm not in a hurry, I can wait",questioning,fake_authority,8,high,3,7/25/2025 10:45,0,0,0,0,1,0,1,0,1,0,3,1,fake_authority,0
+SCAM_0378,Don't talk to the bank about this,Why the rush?,expert_mention,fake_authority,7,high,5,7/23/2025 19:54,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0379,There are limited offers today only,Why the rush?,delaying,emotional_manipulation,7,high,3,6/7/2025 10:09,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0380,Security deposit needed for verification,Can you provide official documentation?,expert_mention,fake_authority,9,critical,5,12/8/2024 5:34,0,0,0,0,1,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0381,Document processing fee,I need to consult with financial advisor,expert_mention,urgency,8,high,4,9/3/2025 11:15,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0382,Your account will be blocked if you don't pay,This contradicts standard banking procedures,refusing,isolation,10,critical,4,9/5/2025 1:23,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0383,Tax clearance certificate fee required,This contradicts standard banking procedures,counter_attack,fake_authority,9,critical,5,1/10/2025 7:50,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0384,There are additional fees required for transaction,I need to consult with financial advisor,verification,urgency,7,high,5,3/25/2025 9:06,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0385,Emergency service charge,I'll report to the authorities,refusing,emotional_manipulation,5,medium,4,7/16/2025 17:37,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0386,I will lose my job if you don't pay,This seems suspicious,delaying,fake_authority,9,critical,4,6/17/2025 3:14,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0387,This is a mandatory security procedure,There is no such thing as IMF code,delaying,isolation,8,high,4,4/7/2025 10:31,0,0,0,0,2,0,2,0,1,0,4,1,isolation,1
+SCAM_0388,You need to pay IMF code to withdraw your salary,This is obvious scam,counter_attack,isolation,9,critical,4,6/20/2025 11:12,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0389,Document processing fee,This doesn't make sense,counter_attack,threat,9,critical,5,4/28/2025 20:20,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0390,Currency conversion fee mandatory,I'll wait for technical support response,expert_mention,isolation,10,critical,4,6/2/2025 11:49,0,1,0,0,1,0,2,0,0,0,4,1,isolation,1
+SCAM_0391,Emergency service charge,I'll wait for technical support response,expert_mention,fake_fee,9,critical,4,6/17/2025 18:01,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0392,Trust me my dear,Why the rush?,expert_mention,threat,10,critical,4,11/25/2024 16:49,0,0,2,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0393,This is your last chance to withdraw,Can you provide official documentation?,questioning,isolation,9,critical,3,8/20/2025 11:14,0,0,0,0,0,0,0,0,0,0,3,1,isolation,0
+SCAM_0394,This is a mandatory security procedure,There is no such thing as IMF code,questioning,fake_fee,7,high,5,8/29/2025 0:19,0,0,0,0,2,0,2,0,1,0,5,1,fake_fee,1
+SCAM_0395,Urgent payment required to unlock funds,Let me verify this with customer service,questioning,fake_authority,8,high,5,5/11/2025 2:58,1,1,0,0,0,0,2,1,0,0,5,1,fake_authority,1
+SCAM_0396,Document processing fee,I'll check the company's official website,refusing,emotional_manipulation,7,high,5,5/23/2025 23:44,0,1,0,0,0,0,1,1,0,0,5,1,emotional_manipulation,1
+SCAM_0397,This is your last chance to withdraw,I'll check the company's official website,questioning,isolation,10,critical,5,5/15/2025 8:33,0,0,0,0,0,0,0,1,0,0,5,1,isolation,1
+SCAM_0398,There are additional fees required for transaction,I work in cybersecurity and I know these tactics,questioning,threat,9,critical,5,9/25/2025 21:21,0,1,0,0,0,0,1,0,1,1,5,1,threat,1
+SCAM_0399,I will lose my job if you don't pay,There is no such thing as IMF code,counter_attack,fake_fee,8,high,4,8/29/2025 10:54,0,1,0,0,0,1,2,0,1,0,4,1,fake_fee,1
+SCAM_0400,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",questioning,urgency,6,high,5,6/10/2025 8:24,0,0,0,0,0,0,0,0,1,0,5,1,urgency,1
+SCAM_0401,You must pay immediately before expiration,I work in cybersecurity and I know these tactics,counter_attack,emotional_manipulation,5,medium,4,12/6/2024 11:24,1,1,0,0,0,0,2,0,1,1,4,1,emotional_manipulation,1
+SCAM_0402,Trust me my dear,"I have enough money, I don't need to withdraw now",counter_attack,urgency,6,high,5,9/27/2025 21:23,0,0,2,0,0,0,2,0,1,0,5,1,urgency,1
+SCAM_0403,You must pay immediately before expiration,I'll check with the bank first,questioning,urgency,8,high,3,4/2/2025 20:35,1,1,0,0,0,0,2,1,0,0,3,1,urgency,0
+SCAM_0404,Emergency service charge,There is no such thing as IMF code,verification,urgency,7,high,5,3/17/2025 22:25,0,1,0,0,0,0,1,0,1,0,5,1,urgency,1
+SCAM_0405,Emergency service charge,"I'm not in a hurry, I can wait",verification,fake_authority,7,high,4,8/10/2025 4:18,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0406,There are additional fees required for transaction,There is no such thing as IMF code,expert_mention,emotional_manipulation,4,medium,5,5/18/2025 21:40,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0407,You need to pay IMF code to withdraw your salary,I need to consult with financial advisor,verification,fake_fee,9,critical,5,11/13/2025 7:04,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0408,Don't talk to the bank about this,Why the rush?,delaying,isolation,8,high,3,12/19/2024 15:53,0,0,0,0,0,0,0,0,0,0,3,1,isolation,0
+SCAM_0409,Your account will be blocked if you don't pay,Can you provide official documentation?,expert_mention,urgency,6,high,4,1/31/2025 2:30,0,1,0,0,0,1,2,0,0,0,4,1,urgency,1
+SCAM_0410,Tax clearance certificate fee required,Why the rush?,delaying,emotional_manipulation,5,medium,4,9/22/2025 5:37,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0411,Trust me my dear,I'll check with the bank first,expert_mention,isolation,8,high,4,2/25/2025 3:46,0,0,2,0,0,0,2,1,0,0,4,1,isolation,1
+SCAM_0412,Currency conversion fee mandatory,There is no such thing as IMF code,counter_attack,fake_authority,7,high,5,9/10/2025 23:51,0,1,0,0,1,0,2,0,1,0,5,1,fake_authority,1
+SCAM_0413,This is 100% legitimate process,The bank confirmed these requirements don't exist,expert_mention,fake_fee,10,critical,4,1/1/2025 6:34,0,0,0,0,0,0,0,1,0,0,4,1,fake_fee,1
+SCAM_0414,There are limited offers today only,Can you provide official documentation?,expert_mention,threat,10,critical,5,12/5/2024 11:48,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0415,There are additional fees required for transaction,This contradicts standard banking procedures,expert_mention,emotional_manipulation,5,medium,4,4/13/2025 8:54,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0416,Account activation charge,I work in cybersecurity and I know these tactics,delaying,emotional_manipulation,7,high,3,8/19/2025 5:26,0,1,0,0,0,0,1,0,1,1,3,1,emotional_manipulation,0
+SCAM_0417,There are limited offers today only,"I'm not in a hurry, I can wait",counter_attack,isolation,8,high,5,11/6/2025 3:34,0,0,0,0,0,0,0,0,1,0,5,1,isolation,1
+SCAM_0418,This is your last chance to withdraw,This is obvious scam,questioning,fake_fee,8,high,3,5/4/2025 1:55,0,0,0,0,0,0,0,0,0,0,3,1,fake_fee,0
+SCAM_0419,International transfer authorization code,"I'm not in a hurry, I can wait",counter_attack,isolation,10,critical,4,3/3/2025 20:17,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0420,International transfer authorization code,Let me verify this with customer service,expert_mention,threat,10,critical,5,10/26/2025 13:01,0,0,0,0,0,0,0,1,0,0,5,1,threat,1
+SCAM_0421,There are additional fees required for transaction,"I have enough money, I don't need to withdraw now",refusing,emotional_manipulation,5,medium,4,10/23/2025 4:47,0,1,0,0,0,0,1,0,1,0,4,1,emotional_manipulation,1
+SCAM_0422,Document processing fee,"I have enough money, I don't need to withdraw now",counter_attack,emotional_manipulation,7,high,4,2/22/2025 19:10,0,1,0,0,0,0,1,0,1,0,4,1,emotional_manipulation,1
+SCAM_0423,This is a mandatory security procedure,I'll check with the bank first,counter_attack,isolation,10,critical,4,8/13/2025 22:16,0,0,0,0,2,0,2,1,0,0,4,1,isolation,1
+SCAM_0424,Document processing fee,Can you provide official documentation?,refusing,threat,9,critical,4,8/15/2025 16:42,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0425,I will lose my job if you don't pay,There is no such thing as IMF code,verification,threat,10,critical,4,8/4/2025 2:14,0,1,0,0,0,1,2,0,1,0,4,1,threat,1
+SCAM_0426,Emergency service charge,I prefer to wait for official communication,verification,fake_fee,10,critical,5,11/14/2025 17:18,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0427,This is 100% legitimate process,Can you provide official documentation?,verification,fake_fee,10,critical,5,10/15/2025 17:55,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0428,Your account will be blocked if you don't pay,I work in cybersecurity and I know these tactics,refusing,isolation,8,high,4,9/11/2025 17:13,0,1,0,0,0,1,2,0,1,1,4,1,isolation,1
+SCAM_0429,Document processing fee,"I have enough money, I don't need to withdraw now",delaying,urgency,9,critical,4,7/9/2025 6:30,0,1,0,0,0,0,1,0,1,0,4,1,urgency,1
+SCAM_0430,Trust me my dear,This is obvious scam,expert_mention,threat,9,critical,5,2/11/2025 2:46,0,0,2,0,0,0,2,0,0,0,5,1,threat,1
+SCAM_0431,Emergency service charge,"I'm not in a hurry, I can wait",verification,isolation,10,critical,4,7/22/2025 20:59,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0432,I will lose my job if you don't pay,Can you provide official documentation?,expert_mention,urgency,6,high,5,9/11/2025 3:41,0,1,0,0,0,1,2,0,0,0,5,1,urgency,1
+SCAM_0433,Currency conversion fee mandatory,I work in cybersecurity and I know these tactics,expert_mention,urgency,6,high,5,2/12/2025 2:21,0,1,0,0,1,0,2,0,1,1,5,1,urgency,1
+SCAM_0434,Currency conversion fee mandatory,This is obvious scam,refusing,isolation,9,critical,4,9/28/2025 19:04,0,1,0,0,1,0,2,0,0,0,4,1,isolation,1
+SCAM_0435,This is a mandatory security procedure,"I have enough money, I don't need to withdraw now",questioning,isolation,10,critical,4,9/12/2025 3:04,0,0,0,0,2,0,2,0,1,0,4,1,isolation,1
+SCAM_0436,Your account will be blocked if you don't pay,"I have enough money, I don't need to withdraw now",expert_mention,urgency,6,high,5,9/11/2025 2:45,0,1,0,0,0,1,2,0,1,0,5,1,urgency,1
+SCAM_0437,Follow the instructions exactly,I'll wait for technical support response,questioning,threat,9,critical,5,10/17/2025 8:06,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0438,Document processing fee,I work in cybersecurity and I know these tactics,delaying,threat,9,critical,3,6/1/2025 20:57,0,1,0,0,0,0,1,0,1,1,3,1,threat,0
+SCAM_0439,This is a mandatory security procedure,Let me verify this with customer service,questioning,fake_authority,9,critical,3,11/5/2025 0:22,0,0,0,0,2,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0440,Tax clearance certificate fee required,I'll wait for technical support response,delaying,emotional_manipulation,7,high,4,6/18/2025 8:37,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0441,International transfer authorization code,"I'm not in a hurry, I can wait",expert_mention,emotional_manipulation,7,high,4,10/19/2025 3:52,0,0,0,0,0,0,0,0,1,0,4,1,emotional_manipulation,1
+SCAM_0442,Tax clearance certificate fee required,The bank confirmed these requirements don't exist,verification,isolation,10,critical,5,11/16/2025 6:27,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0443,Tax clearance certificate fee required,This contradicts standard banking procedures,expert_mention,threat,9,critical,4,6/24/2025 17:29,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0444,Emergency service charge,This doesn't make sense,questioning,urgency,9,critical,4,9/27/2025 22:40,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0445,Tax clearance certificate fee required,I'll wait for technical support response,questioning,emotional_manipulation,7,high,4,10/15/2025 3:11,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0446,Urgent payment required to unlock funds,I prefer to wait for official communication,expert_mention,emotional_manipulation,7,high,5,6/7/2025 7:32,1,1,0,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0447,Account activation charge,I'll verify with official sources,verification,fake_authority,7,high,5,8/13/2025 3:40,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0448,This is your last chance to withdraw,I'll check the company's official website,expert_mention,emotional_manipulation,4,medium,5,9/20/2025 23:32,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0449,Account activation charge,I'll check the company's official website,verification,isolation,9,critical,5,10/6/2025 6:25,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0450,Document processing fee,There is no such thing as IMF code,delaying,emotional_manipulation,7,high,3,12/12/2024 15:41,0,1,0,0,0,0,1,0,1,0,3,1,emotional_manipulation,0
+SCAM_0451,Don't talk to the bank about this,The bank confirmed these requirements don't exist,expert_mention,emotional_manipulation,6,high,5,9/22/2025 11:08,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0452,Document processing fee,This contradicts standard banking procedures,counter_attack,emotional_manipulation,7,high,5,7/11/2025 21:46,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0453,I will lose my job if you don't pay,I need to consult with financial advisor,verification,threat,9,critical,5,1/18/2025 10:43,0,1,0,0,0,1,2,0,0,0,5,1,threat,1
+SCAM_0454,This is 100% legitimate process,Let me verify this with customer service,counter_attack,urgency,9,critical,5,7/2/2025 3:59,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0455,Currency conversion fee mandatory,This is obvious scam,counter_attack,threat,9,critical,5,3/18/2025 9:25,0,1,0,0,1,0,2,0,0,0,5,1,threat,1
+SCAM_0456,Document processing fee,I need to consult with financial advisor,delaying,threat,10,critical,4,7/9/2025 3:03,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0457,Security deposit needed for verification,Why the rush?,refusing,fake_fee,9,critical,5,2/9/2025 16:26,0,0,0,0,1,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0458,Follow the instructions exactly,I'll check with the bank first,delaying,emotional_manipulation,5,medium,4,12/13/2024 13:19,0,0,0,0,0,0,0,1,0,0,4,1,emotional_manipulation,1
+SCAM_0459,Account activation charge,I'll think about it,expert_mention,fake_fee,9,critical,5,7/17/2025 0:47,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0460,Urgent payment required to unlock funds,"I have enough money, I don't need to withdraw now",delaying,fake_fee,7,high,3,6/25/2025 12:51,1,1,0,0,0,0,2,0,1,0,3,1,fake_fee,0
+SCAM_0461,Don't talk to the bank about this,Why the rush?,delaying,urgency,6,high,3,4/30/2025 11:17,0,0,0,0,0,0,0,0,0,0,3,1,urgency,0
+SCAM_0462,I will lose my job if you don't pay,I'll check the company's official website,counter_attack,isolation,10,critical,4,1/17/2025 10:14,0,1,0,0,0,1,2,1,0,0,4,1,isolation,1
+SCAM_0463,There are additional fees required for transaction,The bank confirmed these requirements don't exist,refusing,fake_authority,8,high,5,9/12/2025 18:02,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0464,Don't talk to the bank about this,This is obvious scam,delaying,urgency,9,critical,4,5/24/2025 1:28,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0465,This is a mandatory security procedure,I'll think about it,expert_mention,emotional_manipulation,5,medium,5,9/27/2025 4:02,0,0,0,0,2,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0466,You need to pay IMF code to withdraw your salary,This doesn't make sense,delaying,threat,9,critical,4,4/8/2025 13:08,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0467,Trust me my dear,I'll think about it,expert_mention,fake_authority,7,high,5,1/10/2025 2:16,0,0,2,0,0,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0468,You need to pay IMF code to withdraw your salary,I'll check the company's official website,expert_mention,fake_authority,8,high,5,5/19/2025 1:14,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0469,Your account will be blocked if you don't pay,This seems suspicious,refusing,urgency,7,high,4,4/20/2025 3:25,0,1,0,0,0,1,2,0,0,0,4,1,urgency,1
+SCAM_0470,International transfer authorization code,This doesn't make sense,delaying,isolation,9,critical,3,5/11/2025 13:31,0,0,0,0,0,0,0,0,0,0,3,1,isolation,0
+SCAM_0471,Emergency service charge,Can you provide official documentation?,delaying,emotional_manipulation,5,medium,4,10/31/2025 6:34,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0472,Emergency service charge,I'll report to the authorities,questioning,fake_fee,9,critical,5,8/20/2025 0:55,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0473,This is 100% legitimate process,This doesn't make sense,expert_mention,emotional_manipulation,5,medium,5,1/16/2025 18:57,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0474,Your account will be blocked if you don't pay,I'll report to the authorities,questioning,emotional_manipulation,6,high,3,1/15/2025 20:31,0,1,0,0,0,1,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0475,This is your last chance to withdraw,I'll verify with official sources,expert_mention,isolation,9,critical,4,5/30/2025 11:29,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0476,Tax clearance certificate fee required,Why the rush?,questioning,isolation,9,critical,3,1/20/2025 15:09,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0477,This is 100% legitimate process,I'll think about it,delaying,threat,10,critical,4,8/21/2025 11:51,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0478,You need to pay IMF code to withdraw your salary,This is obvious scam,expert_mention,threat,10,critical,4,4/13/2025 9:39,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0479,Tax clearance certificate fee required,I'll report to the authorities,verification,threat,9,critical,5,9/20/2025 2:29,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0480,Account activation charge,I prefer to wait for official communication,counter_attack,fake_fee,7,high,4,7/12/2025 7:05,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0481,Your account will be blocked if you don't pay,I'll wait for technical support response,refusing,isolation,9,critical,4,7/13/2025 11:44,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0482,Document processing fee,I prefer to wait for official communication,counter_attack,fake_fee,7,high,5,8/20/2025 3:10,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0483,International transfer authorization code,This contradicts standard banking procedures,expert_mention,threat,10,critical,4,10/23/2025 6:25,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0484,Don't talk to the bank about this,This contradicts standard banking procedures,counter_attack,emotional_manipulation,7,high,4,3/18/2025 3:46,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0485,There are limited offers today only,I'll report to the authorities,verification,fake_fee,10,critical,4,10/3/2025 19:43,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0486,I will lose my job if you don't pay,Let me verify this with customer service,expert_mention,isolation,10,critical,4,11/15/2025 4:10,0,1,0,0,0,1,2,1,0,0,4,1,isolation,1
+SCAM_0487,Account activation charge,I'll check with the bank first,questioning,isolation,10,critical,3,8/18/2025 12:34,0,1,0,0,0,0,1,1,0,0,3,1,isolation,0
+SCAM_0488,This is 100% legitimate process,This seems suspicious,delaying,urgency,9,critical,3,7/15/2025 5:14,0,0,0,0,0,0,0,0,0,0,3,1,urgency,0
+SCAM_0489,Account activation charge,I work in cybersecurity and I know these tactics,questioning,emotional_manipulation,7,high,4,3/20/2025 23:53,0,1,0,0,0,0,1,0,1,1,4,1,emotional_manipulation,1
+SCAM_0490,Tax clearance certificate fee required,Let me verify this with customer service,delaying,urgency,9,critical,4,5/26/2025 22:26,0,1,0,0,0,0,1,1,0,0,4,1,urgency,1
+SCAM_0491,There are additional fees required for transaction,I need to consult with financial advisor,counter_attack,isolation,10,critical,4,4/19/2025 6:25,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0492,This is a mandatory security procedure,I need to consult with financial advisor,verification,threat,9,critical,4,5/2/2025 15:04,0,0,0,0,2,0,2,0,0,0,4,1,threat,1
+SCAM_0493,Document processing fee,I'll verify with official sources,verification,threat,10,critical,5,4/16/2025 21:08,0,1,0,0,0,0,1,1,0,0,5,1,threat,1
+SCAM_0494,You must pay immediately before expiration,I need to consult with financial advisor,delaying,urgency,7,high,3,8/19/2025 11:11,1,1,0,0,0,0,2,0,0,0,3,1,urgency,0
+SCAM_0495,There are limited offers today only,I'll report to the authorities,refusing,threat,10,critical,4,10/15/2025 7:25,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0496,Trust me my dear,I'll verify with official sources,refusing,fake_fee,10,critical,4,7/21/2025 10:32,0,0,2,0,0,0,2,1,0,0,4,1,fake_fee,1
+SCAM_0497,Account activation charge,There is no such thing as IMF code,verification,fake_fee,10,critical,4,3/3/2025 13:50,0,1,0,0,0,0,1,0,1,0,4,1,fake_fee,1
+SCAM_0498,I will lose my job if you don't pay,"I have enough money, I don't need to withdraw now",questioning,urgency,7,high,4,10/11/2025 7:37,0,1,0,0,0,1,2,0,1,0,4,1,urgency,1
+SCAM_0499,There are limited offers today only,The bank confirmed these requirements don't exist,delaying,fake_authority,7,high,3,3/22/2025 6:15,0,0,0,0,0,0,0,1,0,0,3,1,fake_authority,0
+SCAM_0500,Currency conversion fee mandatory,This seems suspicious,questioning,emotional_manipulation,4,medium,4,11/30/2024 23:12,0,1,0,0,1,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0501,Security deposit needed for verification,This doesn't make sense,expert_mention,threat,10,critical,5,11/10/2025 3:25,0,0,0,0,1,0,1,0,0,0,5,1,threat,1
+SCAM_0502,There are limited offers today only,This doesn't make sense,delaying,emotional_manipulation,6,high,3,10/22/2025 10:01,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0503,You need to pay IMF code to withdraw your salary,I'll check with the bank first,verification,fake_authority,7,high,4,7/24/2025 1:41,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0504,Tax clearance certificate fee required,This is obvious scam,verification,threat,9,critical,4,1/28/2025 19:38,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0505,This is a mandatory security procedure,I'll verify with official sources,verification,fake_authority,8,high,4,10/5/2025 14:21,0,0,0,0,2,0,2,1,0,0,4,1,fake_authority,1
+SCAM_0506,International transfer authorization code,I work in cybersecurity and I know these tactics,counter_attack,fake_fee,10,critical,5,10/26/2025 14:02,0,0,0,0,0,0,0,0,1,1,5,1,fake_fee,1
+SCAM_0507,International transfer authorization code,Can you provide official documentation?,delaying,threat,9,critical,3,6/23/2025 13:19,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0508,This is a mandatory security procedure,"I'm not in a hurry, I can wait",verification,emotional_manipulation,7,high,5,4/25/2025 22:52,0,0,0,0,2,0,2,0,1,0,5,1,emotional_manipulation,1
+SCAM_0509,Document processing fee,Why the rush?,questioning,emotional_manipulation,4,medium,4,7/22/2025 11:31,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0510,Document processing fee,Can you provide official documentation?,refusing,isolation,10,critical,4,1/18/2025 13:22,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0511,Urgent payment required to unlock funds,The bank confirmed these requirements don't exist,counter_attack,emotional_manipulation,4,medium,5,9/7/2025 9:28,1,1,0,0,0,0,2,1,0,0,5,1,emotional_manipulation,1
+SCAM_0512,Follow the instructions exactly,I prefer to wait for official communication,verification,fake_authority,9,critical,4,7/3/2025 4:04,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0513,You must pay immediately before expiration,I'll check the company's official website,verification,emotional_manipulation,4,medium,5,3/19/2025 7:52,1,1,0,0,0,0,2,1,0,0,5,1,emotional_manipulation,1
+SCAM_0514,Trust me my dear,This seems suspicious,questioning,fake_fee,7,high,5,12/4/2024 14:13,0,0,2,0,0,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0515,There are additional fees required for transaction,I prefer to wait for official communication,refusing,urgency,9,critical,5,2/3/2025 23:46,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0516,There are additional fees required for transaction,I work in cybersecurity and I know these tactics,delaying,fake_authority,8,high,3,1/29/2025 22:39,0,1,0,0,0,0,1,0,1,1,3,1,fake_authority,0
+SCAM_0517,International transfer authorization code,I'll check with the bank first,counter_attack,threat,9,critical,4,10/11/2025 13:46,0,0,0,0,0,0,0,1,0,0,4,1,threat,1
+SCAM_0518,Your account will be blocked if you don't pay,"I'm not in a hurry, I can wait",verification,urgency,7,high,4,11/23/2024 15:20,0,1,0,0,0,1,2,0,1,0,4,1,urgency,1
+SCAM_0519,Emergency service charge,I'll report to the authorities,expert_mention,isolation,10,critical,4,2/14/2025 11:05,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0520,Account activation charge,I'll report to the authorities,counter_attack,urgency,8,high,5,5/22/2025 23:50,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0521,You need to pay IMF code to withdraw your salary,"I have enough money, I don't need to withdraw now",expert_mention,fake_fee,10,critical,5,1/1/2025 7:12,0,1,0,0,0,0,1,0,1,0,5,1,fake_fee,1
+SCAM_0522,Account activation charge,I'll check with the bank first,expert_mention,isolation,9,critical,5,9/3/2025 12:49,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0523,Tax clearance certificate fee required,I'll check with the bank first,delaying,threat,10,critical,4,2/14/2025 10:44,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0524,International transfer authorization code,I prefer to wait for official communication,delaying,fake_fee,8,high,4,8/4/2025 17:34,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0525,Your account will be blocked if you don't pay,I'll report to the authorities,verification,urgency,9,critical,5,10/17/2025 7:51,0,1,0,0,0,1,2,0,0,0,5,1,urgency,1
+SCAM_0526,Trust me my dear,I'll wait for technical support response,expert_mention,fake_authority,7,high,4,7/3/2025 0:10,0,0,2,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0527,Follow the instructions exactly,I'll verify with official sources,questioning,fake_authority,9,critical,3,8/6/2025 13:02,0,0,0,0,0,0,0,1,0,0,3,1,fake_authority,0
+SCAM_0528,You need to pay IMF code to withdraw your salary,I need to consult with financial advisor,counter_attack,fake_fee,8,high,4,11/23/2025 19:26,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0529,You must pay immediately before expiration,I prefer to wait for official communication,verification,isolation,8,high,4,11/13/2025 1:55,1,1,0,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0530,There are additional fees required for transaction,This is obvious scam,verification,threat,9,critical,4,12/21/2024 11:38,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0531,Emergency service charge,I prefer to wait for official communication,questioning,isolation,8,high,4,12/28/2024 0:29,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0532,Emergency service charge,This seems suspicious,verification,urgency,7,high,5,9/2/2025 1:23,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0533,Your account will be blocked if you don't pay,This is obvious scam,verification,isolation,9,critical,4,7/30/2025 10:45,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0534,There are additional fees required for transaction,The bank confirmed these requirements don't exist,verification,fake_authority,8,high,4,4/30/2025 1:32,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0535,Emergency service charge,I'll verify with official sources,verification,fake_authority,7,high,4,6/12/2025 19:41,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0536,Don't talk to the bank about this,Can you provide official documentation?,verification,urgency,6,high,4,10/14/2025 20:51,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0537,You need to pay IMF code to withdraw your salary,I'll check the company's official website,questioning,urgency,7,high,4,12/20/2024 15:14,0,1,0,0,0,0,1,1,0,0,4,1,urgency,1
+SCAM_0538,This is your last chance to withdraw,I'll verify with official sources,verification,urgency,7,high,5,4/22/2025 20:33,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0539,Follow the instructions exactly,This is obvious scam,counter_attack,urgency,7,high,5,11/19/2025 0:25,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0540,There are limited offers today only,I'll verify with official sources,verification,isolation,10,critical,5,7/22/2025 8:51,0,0,0,0,0,0,0,1,0,0,5,1,isolation,1
+SCAM_0541,Currency conversion fee mandatory,Let me verify this with customer service,counter_attack,urgency,9,critical,4,6/11/2025 17:56,0,1,0,0,1,0,2,1,0,0,4,1,urgency,1
+SCAM_0542,Currency conversion fee mandatory,I need to consult with financial advisor,expert_mention,isolation,9,critical,4,12/27/2024 4:52,0,1,0,0,1,0,2,0,0,0,4,1,isolation,1
+SCAM_0543,Security deposit needed for verification,This doesn't make sense,verification,urgency,8,high,4,10/3/2025 11:15,0,0,0,0,1,0,1,0,0,0,4,1,urgency,1
+SCAM_0544,Currency conversion fee mandatory,I prefer to wait for official communication,refusing,isolation,8,high,5,7/29/2025 9:07,0,1,0,0,1,0,2,0,0,0,5,1,isolation,1
+SCAM_0545,Don't talk to the bank about this,I'll report to the authorities,expert_mention,fake_fee,7,high,4,4/29/2025 19:43,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0546,I will lose my job if you don't pay,I work in cybersecurity and I know these tactics,expert_mention,emotional_manipulation,6,high,5,1/16/2025 11:26,0,1,0,0,0,1,2,0,1,1,5,1,emotional_manipulation,1
+SCAM_0547,Document processing fee,I'll check with the bank first,counter_attack,threat,10,critical,4,4/28/2025 0:29,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0548,You must pay immediately before expiration,I'll verify with official sources,delaying,isolation,9,critical,4,5/29/2025 22:26,1,1,0,0,0,0,2,1,0,0,4,1,isolation,1
+SCAM_0549,International transfer authorization code,"I'm not in a hurry, I can wait",refusing,urgency,7,high,5,1/12/2025 7:21,0,0,0,0,0,0,0,0,1,0,5,1,urgency,1
+SCAM_0550,Urgent payment required to unlock funds,I work in cybersecurity and I know these tactics,counter_attack,fake_fee,10,critical,5,2/10/2025 14:20,1,1,0,0,0,0,2,0,1,1,5,1,fake_fee,1
+SCAM_0551,There are additional fees required for transaction,I prefer to wait for official communication,counter_attack,fake_fee,8,high,5,1/6/2025 2:14,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0552,Currency conversion fee mandatory,I'll check with the bank first,delaying,emotional_manipulation,7,high,4,4/4/2025 17:49,0,1,0,0,1,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0553,This is 100% legitimate process,Why the rush?,expert_mention,threat,10,critical,5,3/27/2025 5:07,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0554,Emergency service charge,The bank confirmed these requirements don't exist,verification,emotional_manipulation,6,high,4,8/12/2025 11:32,0,1,0,0,0,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0555,Urgent payment required to unlock funds,I prefer to wait for official communication,delaying,isolation,8,high,3,3/22/2025 20:18,1,1,0,0,0,0,2,0,0,0,3,1,isolation,0
+SCAM_0556,Account activation charge,This is obvious scam,expert_mention,fake_fee,7,high,5,3/23/2025 3:50,0,1,0,0,0,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0557,Trust me my dear,I work in cybersecurity and I know these tactics,verification,fake_fee,10,critical,5,6/5/2025 8:20,0,0,2,0,0,0,2,0,1,1,5,1,fake_fee,1
+SCAM_0558,This is a mandatory security procedure,"I have enough money, I don't need to withdraw now",refusing,threat,9,critical,5,4/7/2025 16:51,0,0,0,0,2,0,2,0,1,0,5,1,threat,1
+SCAM_0559,This is your last chance to withdraw,I'll check with the bank first,verification,fake_fee,7,high,4,5/8/2025 8:47,0,0,0,0,0,0,0,1,0,0,4,1,fake_fee,1
+SCAM_0560,Follow the instructions exactly,There is no such thing as IMF code,expert_mention,fake_authority,8,high,5,10/19/2025 13:56,0,0,0,0,0,0,0,0,1,0,5,1,fake_authority,1
+SCAM_0561,Don't talk to the bank about this,"I'm not in a hurry, I can wait",delaying,urgency,6,high,3,11/14/2025 14:58,0,0,0,0,0,0,0,0,1,0,3,1,urgency,0
+SCAM_0562,This is your last chance to withdraw,There is no such thing as IMF code,counter_attack,fake_authority,7,high,4,10/29/2025 3:46,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0563,I will lose my job if you don't pay,I'll think about it,questioning,isolation,10,critical,5,6/21/2025 11:08,0,1,0,0,0,1,2,0,0,0,5,1,isolation,1
+SCAM_0564,There are additional fees required for transaction,This seems suspicious,delaying,isolation,9,critical,4,11/2/2025 17:54,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0565,International transfer authorization code,This seems suspicious,refusing,fake_fee,7,high,5,10/28/2025 9:25,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0566,Don't talk to the bank about this,I prefer to wait for official communication,questioning,fake_fee,10,critical,3,11/23/2024 16:19,0,0,0,0,0,0,0,0,0,0,3,1,fake_fee,0
+SCAM_0567,I will lose my job if you don't pay,"I have enough money, I don't need to withdraw now",refusing,emotional_manipulation,5,medium,5,1/4/2025 22:38,0,1,0,0,0,1,2,0,1,0,5,1,emotional_manipulation,1
+SCAM_0568,Don't talk to the bank about this,The bank confirmed these requirements don't exist,verification,isolation,8,high,4,6/18/2025 2:00,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0569,Follow the instructions exactly,"I have enough money, I don't need to withdraw now",questioning,urgency,7,high,5,3/27/2025 16:29,0,0,0,0,0,0,0,0,1,0,5,1,urgency,1
+SCAM_0570,Emergency service charge,The bank confirmed these requirements don't exist,refusing,emotional_manipulation,7,high,4,2/9/2025 5:24,0,1,0,0,0,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0571,Security deposit needed for verification,This contradicts standard banking procedures,verification,threat,9,critical,5,12/21/2024 0:20,0,0,0,0,1,0,1,0,0,0,5,1,threat,1
+SCAM_0572,Trust me my dear,This doesn't make sense,counter_attack,emotional_manipulation,5,medium,5,4/11/2025 16:18,0,0,2,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0573,You need to pay IMF code to withdraw your salary,This contradicts standard banking procedures,expert_mention,threat,9,critical,5,4/30/2025 4:34,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0574,Security deposit needed for verification,There is no such thing as IMF code,questioning,isolation,10,critical,5,8/11/2025 0:48,0,0,0,0,1,0,1,0,1,0,5,1,isolation,1
+SCAM_0575,Don't talk to the bank about this,The bank confirmed these requirements don't exist,counter_attack,fake_fee,9,critical,5,4/9/2025 17:59,0,0,0,0,0,0,0,1,0,0,5,1,fake_fee,1
+SCAM_0576,Urgent payment required to unlock funds,This doesn't make sense,expert_mention,fake_authority,8,high,5,11/14/2025 7:56,1,1,0,0,0,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0577,This is a mandatory security procedure,Let me verify this with customer service,refusing,urgency,6,high,5,9/16/2025 1:19,0,0,0,0,2,0,2,1,0,0,5,1,urgency,1
+SCAM_0578,Currency conversion fee mandatory,Why the rush?,expert_mention,emotional_manipulation,7,high,4,2/9/2025 13:34,0,1,0,0,1,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0579,Tax clearance certificate fee required,Let me verify this with customer service,delaying,urgency,6,high,3,4/1/2025 19:39,0,1,0,0,0,0,1,1,0,0,3,1,urgency,0
+SCAM_0580,Urgent payment required to unlock funds,I'll wait for technical support response,refusing,fake_fee,7,high,4,5/20/2025 11:53,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0581,This is a mandatory security procedure,I work in cybersecurity and I know these tactics,verification,fake_fee,9,critical,5,1/16/2025 1:07,0,0,0,0,2,0,2,0,1,1,5,1,fake_fee,1
+SCAM_0582,Urgent payment required to unlock funds,This doesn't make sense,verification,fake_fee,8,high,5,12/27/2024 11:19,1,1,0,0,0,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0583,There are limited offers today only,Can you provide official documentation?,verification,threat,10,critical,4,9/29/2025 5:43,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0584,Don't talk to the bank about this,I prefer to wait for official communication,counter_attack,isolation,10,critical,5,3/17/2025 1:02,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0585,Your account will be blocked if you don't pay,I need to consult with financial advisor,questioning,emotional_manipulation,5,medium,5,6/20/2025 7:42,0,1,0,0,0,1,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0586,This is a mandatory security procedure,Why the rush?,expert_mention,fake_fee,10,critical,5,12/16/2024 16:30,0,0,0,0,2,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0587,You must pay immediately before expiration,I'll verify with official sources,delaying,fake_authority,8,high,3,5/7/2025 13:13,1,1,0,0,0,0,2,1,0,0,3,1,fake_authority,0
+SCAM_0588,This is a mandatory security procedure,This seems suspicious,refusing,threat,9,critical,4,3/21/2025 2:48,0,0,0,0,2,0,2,0,0,0,4,1,threat,1
+SCAM_0589,Urgent payment required to unlock funds,Why the rush?,refusing,emotional_manipulation,5,medium,4,3/16/2025 18:55,1,1,0,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0590,Tax clearance certificate fee required,"I have enough money, I don't need to withdraw now",verification,emotional_manipulation,7,high,4,12/31/2024 18:21,0,1,0,0,0,0,1,0,1,0,4,1,emotional_manipulation,1
+SCAM_0591,There are additional fees required for transaction,I'll verify with official sources,delaying,threat,10,critical,3,1/6/2025 3:47,0,1,0,0,0,0,1,1,0,0,3,1,threat,0
+SCAM_0592,Security deposit needed for verification,I need to consult with financial advisor,refusing,isolation,10,critical,5,11/22/2025 10:12,0,0,0,0,1,0,1,0,0,0,5,1,isolation,1
+SCAM_0593,Tax clearance certificate fee required,I'll think about it,verification,urgency,6,high,4,5/18/2025 19:55,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0594,Your account will be blocked if you don't pay,This doesn't make sense,counter_attack,threat,9,critical,5,6/4/2025 16:53,0,1,0,0,0,1,2,0,0,0,5,1,threat,1
+SCAM_0595,Urgent payment required to unlock funds,The bank confirmed these requirements don't exist,questioning,fake_fee,7,high,3,12/5/2024 19:45,1,1,0,0,0,0,2,1,0,0,3,1,fake_fee,0
+SCAM_0596,There are limited offers today only,I'll check with the bank first,questioning,fake_fee,9,critical,3,11/13/2025 7:07,0,0,0,0,0,0,0,1,0,0,3,1,fake_fee,0
+SCAM_0597,This is 100% legitimate process,Let me verify this with customer service,delaying,fake_fee,10,critical,3,8/11/2025 11:43,0,0,0,0,0,0,0,1,0,0,3,1,fake_fee,0
+SCAM_0598,This is your last chance to withdraw,I prefer to wait for official communication,expert_mention,urgency,7,high,4,9/5/2025 3:13,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0599,You must pay immediately before expiration,I'll wait for technical support response,verification,emotional_manipulation,7,high,4,8/27/2025 11:40,1,1,0,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0600,I will lose my job if you don't pay,This contradicts standard banking procedures,refusing,fake_authority,7,high,4,4/9/2025 1:14,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0601,Document processing fee,"I'm not in a hurry, I can wait",refusing,urgency,9,critical,4,4/21/2025 8:38,0,1,0,0,0,0,1,0,1,0,4,1,urgency,1
+SCAM_0602,Your account will be blocked if you don't pay,I'll check the company's official website,delaying,fake_fee,8,high,4,10/21/2025 8:46,0,1,0,0,0,1,2,1,0,0,4,1,fake_fee,1
+SCAM_0603,You must pay immediately before expiration,I'll report to the authorities,questioning,fake_authority,8,high,3,3/9/2025 19:02,1,1,0,0,0,0,2,0,0,0,3,1,fake_authority,0
+SCAM_0604,This is a mandatory security procedure,This doesn't make sense,delaying,isolation,10,critical,3,9/25/2025 23:40,0,0,0,0,2,0,2,0,0,0,3,1,isolation,0
+SCAM_0605,This is your last chance to withdraw,I'll verify with official sources,counter_attack,urgency,7,high,4,8/1/2025 11:52,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0606,There are additional fees required for transaction,"I'm not in a hurry, I can wait",expert_mention,urgency,8,high,5,1/16/2025 3:22,0,1,0,0,0,0,1,0,1,0,5,1,urgency,1
+SCAM_0607,This is 100% legitimate process,This seems suspicious,refusing,isolation,10,critical,4,9/1/2025 16:55,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0608,You need to pay IMF code to withdraw your salary,Why the rush?,expert_mention,fake_authority,8,high,5,8/6/2025 2:25,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0609,Don't talk to the bank about this,This contradicts standard banking procedures,expert_mention,fake_authority,8,high,4,10/24/2025 23:35,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0610,Urgent payment required to unlock funds,I'll think about it,refusing,fake_fee,9,critical,4,3/20/2025 4:56,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0611,Follow the instructions exactly,This is obvious scam,expert_mention,fake_authority,7,high,4,6/4/2025 5:22,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0612,There are limited offers today only,I'll think about it,counter_attack,emotional_manipulation,4,medium,5,9/16/2025 5:50,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0613,Trust me my dear,The bank confirmed these requirements don't exist,counter_attack,isolation,8,high,5,5/19/2025 8:02,0,0,2,0,0,0,2,1,0,0,5,1,isolation,1
+SCAM_0614,Security deposit needed for verification,I'll check with the bank first,refusing,threat,9,critical,4,10/25/2025 10:02,0,0,0,0,1,0,1,1,0,0,4,1,threat,1
+SCAM_0615,International transfer authorization code,I'll report to the authorities,questioning,isolation,8,high,4,2/6/2025 4:07,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0616,There are limited offers today only,This contradicts standard banking procedures,questioning,threat,10,critical,3,2/9/2025 8:38,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0617,Don't talk to the bank about this,I prefer to wait for official communication,delaying,threat,9,critical,3,12/2/2024 11:36,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0618,Currency conversion fee mandatory,I prefer to wait for official communication,delaying,urgency,8,high,3,11/25/2024 12:44,0,1,0,0,1,0,2,0,0,0,3,1,urgency,0
+SCAM_0619,Emergency service charge,I work in cybersecurity and I know these tactics,questioning,fake_fee,10,critical,4,1/23/2025 2:56,0,1,0,0,0,0,1,0,1,1,4,1,fake_fee,1
+SCAM_0620,This is 100% legitimate process,I'll wait for technical support response,refusing,emotional_manipulation,4,medium,5,12/15/2024 17:17,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0621,Follow the instructions exactly,This is obvious scam,counter_attack,emotional_manipulation,6,high,4,9/16/2025 1:19,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0622,Account activation charge,"I have enough money, I don't need to withdraw now",refusing,emotional_manipulation,4,medium,5,3/10/2025 7:26,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0623,There are additional fees required for transaction,Let me verify this with customer service,expert_mention,urgency,7,high,5,3/7/2025 0:31,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0624,Security deposit needed for verification,I'll check the company's official website,expert_mention,emotional_manipulation,7,high,5,9/2/2025 17:27,0,0,0,0,1,0,1,1,0,0,5,1,emotional_manipulation,1
+SCAM_0625,This is your last chance to withdraw,I prefer to wait for official communication,refusing,threat,10,critical,4,8/29/2025 20:57,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0626,Account activation charge,This doesn't make sense,counter_attack,fake_authority,7,high,4,8/30/2025 8:35,0,1,0,0,0,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0627,Trust me my dear,I'll check the company's official website,questioning,urgency,7,high,3,10/18/2025 14:54,0,0,2,0,0,0,2,1,0,0,3,1,urgency,0
+SCAM_0628,Follow the instructions exactly,I'll check the company's official website,questioning,fake_fee,8,high,5,8/12/2025 1:05,0,0,0,0,0,0,0,1,0,0,5,1,fake_fee,1
+SCAM_0629,There are limited offers today only,The bank confirmed these requirements don't exist,expert_mention,emotional_manipulation,5,medium,5,3/23/2025 17:09,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0630,Document processing fee,This doesn't make sense,delaying,isolation,8,high,4,2/22/2025 13:51,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0631,Document processing fee,I need to consult with financial advisor,expert_mention,urgency,7,high,4,10/25/2025 10:54,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0632,Don't talk to the bank about this,Can you provide official documentation?,expert_mention,isolation,10,critical,5,11/19/2025 3:21,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0633,Don't talk to the bank about this,This seems suspicious,refusing,urgency,7,high,4,4/22/2025 22:05,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0634,This is 100% legitimate process,I'll verify with official sources,counter_attack,urgency,8,high,4,11/15/2025 19:20,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0635,You need to pay IMF code to withdraw your salary,The bank confirmed these requirements don't exist,questioning,urgency,6,high,4,11/26/2024 19:36,0,1,0,0,0,0,1,1,0,0,4,1,urgency,1
+SCAM_0636,This is a mandatory security procedure,This is obvious scam,refusing,fake_fee,8,high,4,10/14/2025 0:21,0,0,0,0,2,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0637,Security deposit needed for verification,"I have enough money, I don't need to withdraw now",expert_mention,threat,9,critical,5,3/31/2025 19:55,0,0,0,0,1,0,1,0,1,0,5,1,threat,1
+SCAM_0638,I will lose my job if you don't pay,"I have enough money, I don't need to withdraw now",counter_attack,isolation,8,high,4,5/2/2025 7:11,0,1,0,0,0,1,2,0,1,0,4,1,isolation,1
+SCAM_0639,There are limited offers today only,I'll verify with official sources,counter_attack,isolation,10,critical,4,3/7/2025 11:24,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0640,Urgent payment required to unlock funds,This seems suspicious,verification,threat,9,critical,5,3/7/2025 9:50,1,1,0,0,0,0,2,0,0,0,5,1,threat,1
+SCAM_0641,This is a mandatory security procedure,There is no such thing as IMF code,refusing,emotional_manipulation,4,medium,5,12/26/2024 16:55,0,0,0,0,2,0,2,0,1,0,5,1,emotional_manipulation,1
+SCAM_0642,Your account will be blocked if you don't pay,This doesn't make sense,expert_mention,fake_fee,10,critical,4,8/10/2025 3:38,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0643,You must pay immediately before expiration,The bank confirmed these requirements don't exist,questioning,fake_fee,9,critical,5,12/17/2024 1:46,1,1,0,0,0,0,2,1,0,0,5,1,fake_fee,1
+SCAM_0644,You need to pay IMF code to withdraw your salary,This is obvious scam,questioning,urgency,9,critical,3,6/15/2025 7:47,0,1,0,0,0,0,1,0,0,0,3,1,urgency,0
+SCAM_0645,Don't talk to the bank about this,Why the rush?,delaying,emotional_manipulation,5,medium,4,7/8/2025 9:11,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0646,Tax clearance certificate fee required,I need to consult with financial advisor,refusing,threat,9,critical,5,6/10/2025 6:28,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0647,There are limited offers today only,I prefer to wait for official communication,refusing,fake_fee,7,high,4,10/23/2025 3:15,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0648,Don't talk to the bank about this,I'll report to the authorities,questioning,fake_authority,8,high,5,1/15/2025 3:59,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0649,Currency conversion fee mandatory,I work in cybersecurity and I know these tactics,refusing,isolation,10,critical,4,10/18/2025 8:25,0,1,0,0,1,0,2,0,1,1,4,1,isolation,1
+SCAM_0650,Document processing fee,There is no such thing as IMF code,refusing,urgency,7,high,4,4/16/2025 18:00,0,1,0,0,0,0,1,0,1,0,4,1,urgency,1
+SCAM_0651,This is 100% legitimate process,"I'm not in a hurry, I can wait",verification,isolation,8,high,4,5/30/2025 0:40,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0652,International transfer authorization code,I'll wait for technical support response,counter_attack,emotional_manipulation,4,medium,4,10/3/2025 4:04,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0653,Trust me my dear,I need to consult with financial advisor,refusing,isolation,10,critical,4,6/28/2025 5:07,0,0,2,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0654,Tax clearance certificate fee required,"I'm not in a hurry, I can wait",verification,fake_authority,9,critical,5,9/10/2025 20:28,0,1,0,0,0,0,1,0,1,0,5,1,fake_authority,1
+SCAM_0655,Your account will be blocked if you don't pay,I'll wait for technical support response,refusing,isolation,9,critical,4,6/26/2025 17:17,0,1,0,0,0,1,2,0,0,0,4,1,isolation,1
+SCAM_0656,This is a mandatory security procedure,This seems suspicious,delaying,threat,9,critical,4,2/3/2025 5:14,0,0,0,0,2,0,2,0,0,0,4,1,threat,1
+SCAM_0657,International transfer authorization code,I'll wait for technical support response,refusing,isolation,9,critical,5,6/26/2025 2:51,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0658,Follow the instructions exactly,There is no such thing as IMF code,delaying,fake_fee,8,high,4,4/21/2025 21:13,0,0,0,0,0,0,0,0,1,0,4,1,fake_fee,1
+SCAM_0659,Tax clearance certificate fee required,Why the rush?,verification,urgency,8,high,4,9/21/2025 23:15,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0660,International transfer authorization code,I need to consult with financial advisor,verification,threat,10,critical,4,12/24/2024 20:01,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0661,You need to pay IMF code to withdraw your salary,"I have enough money, I don't need to withdraw now",counter_attack,urgency,7,high,5,8/27/2025 2:18,0,1,0,0,0,0,1,0,1,0,5,1,urgency,1
+SCAM_0662,There are additional fees required for transaction,I work in cybersecurity and I know these tactics,expert_mention,urgency,6,high,4,9/3/2025 19:49,0,1,0,0,0,0,1,0,1,1,4,1,urgency,1
+SCAM_0663,This is 100% legitimate process,This contradicts standard banking procedures,questioning,threat,10,critical,4,5/7/2025 5:34,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0664,There are limited offers today only,I'll think about it,verification,fake_authority,9,critical,5,12/24/2024 11:50,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0665,Emergency service charge,Why the rush?,questioning,isolation,10,critical,5,7/26/2025 14:21,0,1,0,0,0,0,1,0,0,0,5,1,isolation,1
+SCAM_0666,Follow the instructions exactly,I need to consult with financial advisor,questioning,emotional_manipulation,6,high,4,1/19/2025 16:58,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0667,You need to pay IMF code to withdraw your salary,Why the rush?,questioning,fake_fee,10,critical,3,11/19/2025 0:04,0,1,0,0,0,0,1,0,0,0,3,1,fake_fee,0
+SCAM_0668,There are additional fees required for transaction,Let me verify this with customer service,counter_attack,urgency,7,high,5,1/2/2025 6:28,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0669,Document processing fee,This doesn't make sense,expert_mention,emotional_manipulation,4,medium,4,3/10/2025 23:17,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0670,You need to pay IMF code to withdraw your salary,I prefer to wait for official communication,expert_mention,fake_authority,7,high,5,2/10/2025 6:12,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0671,Urgent payment required to unlock funds,I'll report to the authorities,expert_mention,fake_fee,10,critical,4,10/16/2025 15:59,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0672,This is your last chance to withdraw,This seems suspicious,questioning,isolation,10,critical,4,2/21/2025 8:32,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0673,Security deposit needed for verification,This doesn't make sense,refusing,threat,9,critical,4,9/30/2025 6:04,0,0,0,0,1,0,1,0,0,0,4,1,threat,1
+SCAM_0674,This is your last chance to withdraw,This contradicts standard banking procedures,expert_mention,emotional_manipulation,5,medium,4,4/1/2025 7:22,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0675,Don't talk to the bank about this,This seems suspicious,expert_mention,threat,10,critical,4,1/29/2025 12:00,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0676,Currency conversion fee mandatory,This doesn't make sense,delaying,emotional_manipulation,7,high,3,8/12/2025 4:06,0,1,0,0,1,0,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0677,Emergency service charge,I'll report to the authorities,refusing,fake_authority,9,critical,5,10/14/2025 11:02,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0678,Document processing fee,Why the rush?,refusing,fake_authority,7,high,5,6/30/2025 18:38,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0679,Follow the instructions exactly,"I'm not in a hurry, I can wait",refusing,urgency,9,critical,4,1/20/2025 5:11,0,0,0,0,0,0,0,0,1,0,4,1,urgency,1
+SCAM_0680,Urgent payment required to unlock funds,This is obvious scam,verification,urgency,8,high,4,11/14/2025 6:51,1,1,0,0,0,0,2,0,0,0,4,1,urgency,1
+SCAM_0681,International transfer authorization code,I need to consult with financial advisor,questioning,emotional_manipulation,4,medium,4,8/9/2025 8:20,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0682,Tax clearance certificate fee required,This is obvious scam,delaying,isolation,9,critical,3,3/3/2025 1:20,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0683,Urgent payment required to unlock funds,This seems suspicious,verification,emotional_manipulation,4,medium,5,7/22/2025 9:15,1,1,0,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0684,You need to pay IMF code to withdraw your salary,"I have enough money, I don't need to withdraw now",questioning,emotional_manipulation,4,medium,5,8/4/2025 12:10,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0685,There are additional fees required for transaction,This is obvious scam,questioning,emotional_manipulation,6,high,4,8/21/2025 21:29,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0686,Tax clearance certificate fee required,I'll wait for technical support response,verification,fake_authority,9,critical,5,5/7/2025 7:25,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0687,There are limited offers today only,I'll check the company's official website,delaying,threat,9,critical,3,5/18/2025 1:08,0,0,0,0,0,0,0,1,0,0,3,1,threat,0
+SCAM_0688,International transfer authorization code,I'll wait for technical support response,refusing,urgency,7,high,5,9/18/2025 10:52,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0689,Urgent payment required to unlock funds,I work in cybersecurity and I know these tactics,questioning,emotional_manipulation,5,medium,4,6/18/2025 22:04,1,1,0,0,0,0,2,0,1,1,4,1,emotional_manipulation,1
+SCAM_0690,Trust me my dear,I'll check with the bank first,counter_attack,threat,10,critical,5,4/26/2025 13:54,0,0,2,0,0,0,2,1,0,0,5,1,threat,1
+SCAM_0691,Currency conversion fee mandatory,I'll verify with official sources,questioning,isolation,9,critical,4,2/12/2025 4:40,0,1,0,0,1,0,2,1,0,0,4,1,isolation,1
+SCAM_0692,Currency conversion fee mandatory,I prefer to wait for official communication,counter_attack,fake_authority,8,high,4,6/3/2025 4:54,0,1,0,0,1,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0693,You must pay immediately before expiration,I'll check the company's official website,questioning,emotional_manipulation,5,medium,3,6/6/2025 20:28,1,1,0,0,0,0,2,1,0,0,3,1,emotional_manipulation,0
+SCAM_0694,This is 100% legitimate process,I prefer to wait for official communication,refusing,threat,10,critical,4,10/21/2025 4:55,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0695,Tax clearance certificate fee required,"I have enough money, I don't need to withdraw now",questioning,threat,10,critical,4,4/20/2025 1:43,0,1,0,0,0,0,1,0,1,0,4,1,threat,1
+SCAM_0696,Document processing fee,I'll check with the bank first,counter_attack,urgency,7,high,4,3/20/2025 19:07,0,1,0,0,0,0,1,1,0,0,4,1,urgency,1
+SCAM_0697,Tax clearance certificate fee required,I need to consult with financial advisor,expert_mention,emotional_manipulation,6,high,5,10/31/2025 13:49,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0698,This is a mandatory security procedure,I'll report to the authorities,expert_mention,fake_authority,9,critical,4,6/25/2025 20:43,0,0,0,0,2,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0699,There are limited offers today only,I work in cybersecurity and I know these tactics,expert_mention,fake_fee,9,critical,4,9/11/2025 4:24,0,0,0,0,0,0,0,0,1,1,4,1,fake_fee,1
+SCAM_0700,Trust me my dear,This is obvious scam,delaying,fake_fee,9,critical,4,8/31/2025 23:56,0,0,2,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0701,Tax clearance certificate fee required,"I have enough money, I don't need to withdraw now",verification,emotional_manipulation,7,high,5,6/27/2025 21:48,0,1,0,0,0,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0702,Document processing fee,I'll wait for technical support response,questioning,isolation,9,critical,4,6/20/2025 16:17,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0703,You must pay immediately before expiration,I'll report to the authorities,delaying,threat,10,critical,4,12/7/2024 13:28,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0704,Security deposit needed for verification,This doesn't make sense,questioning,emotional_manipulation,5,medium,4,12/12/2024 10:34,0,0,0,0,1,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0705,This is 100% legitimate process,This is obvious scam,questioning,emotional_manipulation,6,high,5,3/19/2025 0:07,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0706,Tax clearance certificate fee required,"I'm not in a hurry, I can wait",counter_attack,isolation,8,high,4,12/13/2024 2:53,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0707,Your account will be blocked if you don't pay,I prefer to wait for official communication,verification,fake_authority,7,high,5,8/29/2025 23:27,0,1,0,0,0,1,2,0,0,0,5,1,fake_authority,1
+SCAM_0708,This is a mandatory security procedure,I'll verify with official sources,verification,fake_fee,8,high,4,3/4/2025 7:42,0,0,0,0,2,0,2,1,0,0,4,1,fake_fee,1
+SCAM_0709,This is 100% legitimate process,This is obvious scam,expert_mention,fake_fee,7,high,4,9/20/2025 14:33,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0710,You need to pay IMF code to withdraw your salary,This contradicts standard banking procedures,counter_attack,isolation,10,critical,5,4/6/2025 3:06,0,1,0,0,0,0,1,0,0,0,5,1,isolation,1
+SCAM_0711,Security deposit needed for verification,"I have enough money, I don't need to withdraw now",expert_mention,fake_fee,10,critical,5,5/20/2025 7:29,0,0,0,0,1,0,1,0,1,0,5,1,fake_fee,1
+SCAM_0712,There are limited offers today only,I'll report to the authorities,counter_attack,isolation,8,high,5,2/26/2025 20:29,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0713,You need to pay IMF code to withdraw your salary,Let me verify this with customer service,refusing,fake_fee,10,critical,4,8/16/2025 11:53,0,1,0,0,0,0,1,1,0,0,4,1,fake_fee,1
+SCAM_0714,There are limited offers today only,This contradicts standard banking procedures,counter_attack,fake_authority,7,high,5,10/11/2025 3:19,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0715,Urgent payment required to unlock funds,I need to consult with financial advisor,verification,threat,9,critical,5,11/4/2025 21:41,1,1,0,0,0,0,2,0,0,0,5,1,threat,1
+SCAM_0716,This is a mandatory security procedure,I'll wait for technical support response,counter_attack,threat,10,critical,4,8/22/2025 12:32,0,0,0,0,2,0,2,0,0,0,4,1,threat,1
+SCAM_0717,This is a mandatory security procedure,There is no such thing as IMF code,expert_mention,fake_fee,10,critical,4,10/24/2025 20:08,0,0,0,0,2,0,2,0,1,0,4,1,fake_fee,1
+SCAM_0718,Follow the instructions exactly,I'll report to the authorities,counter_attack,isolation,10,critical,4,4/24/2025 8:12,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0719,Follow the instructions exactly,There is no such thing as IMF code,delaying,fake_fee,8,high,4,2/23/2025 9:21,0,0,0,0,0,0,0,0,1,0,4,1,fake_fee,1
+SCAM_0720,Emergency service charge,I'll check the company's official website,delaying,fake_fee,9,critical,4,1/2/2025 23:33,0,1,0,0,0,0,1,1,0,0,4,1,fake_fee,1
+SCAM_0721,Emergency service charge,I'll check the company's official website,refusing,fake_fee,8,high,5,5/24/2025 15:27,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0722,Currency conversion fee mandatory,I prefer to wait for official communication,verification,emotional_manipulation,7,high,5,9/21/2025 19:55,0,1,0,0,1,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0723,There are additional fees required for transaction,"I have enough money, I don't need to withdraw now",delaying,fake_authority,9,critical,4,4/26/2025 11:16,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0724,Account activation charge,I need to consult with financial advisor,delaying,emotional_manipulation,7,high,3,6/23/2025 15:39,0,1,0,0,0,0,1,0,0,0,3,1,emotional_manipulation,0
+SCAM_0725,There are additional fees required for transaction,I'll check with the bank first,delaying,fake_authority,8,high,4,6/26/2025 9:50,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0726,This is a mandatory security procedure,Can you provide official documentation?,questioning,fake_authority,7,high,4,11/20/2025 12:54,0,0,0,0,2,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0727,Security deposit needed for verification,I'll check the company's official website,verification,fake_fee,10,critical,4,5/25/2025 5:19,0,0,0,0,1,0,1,1,0,0,4,1,fake_fee,1
+SCAM_0728,Emergency service charge,The bank confirmed these requirements don't exist,refusing,urgency,7,high,5,9/17/2025 6:11,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0729,Don't talk to the bank about this,Can you provide official documentation?,expert_mention,emotional_manipulation,7,high,4,10/18/2025 0:48,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0730,Trust me my dear,This seems suspicious,delaying,urgency,6,high,3,11/4/2025 14:21,0,0,2,0,0,0,2,0,0,0,3,1,urgency,0
+SCAM_0731,This is a mandatory security procedure,I'll check with the bank first,counter_attack,fake_fee,9,critical,5,12/20/2024 17:54,0,0,0,0,2,0,2,1,0,0,5,1,fake_fee,1
+SCAM_0732,Tax clearance certificate fee required,There is no such thing as IMF code,delaying,urgency,6,high,3,8/31/2025 23:42,0,1,0,0,0,0,1,0,1,0,3,1,urgency,0
+SCAM_0733,You need to pay IMF code to withdraw your salary,I'll verify with official sources,expert_mention,fake_authority,8,high,5,1/3/2025 1:04,0,1,0,0,0,0,1,1,0,0,5,1,fake_authority,1
+SCAM_0734,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",questioning,emotional_manipulation,6,high,5,11/9/2025 15:55,0,0,0,0,0,0,0,0,1,0,5,1,emotional_manipulation,1
+SCAM_0735,Emergency service charge,I'll check with the bank first,questioning,emotional_manipulation,4,medium,5,5/12/2025 16:26,0,1,0,0,0,0,1,1,0,0,5,1,emotional_manipulation,1
+SCAM_0736,International transfer authorization code,I'll check the company's official website,delaying,isolation,9,critical,3,3/3/2025 17:59,0,0,0,0,0,0,0,1,0,0,3,1,isolation,0
+SCAM_0737,Don't talk to the bank about this,I'll think about it,delaying,fake_authority,9,critical,3,4/7/2025 14:00,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0738,There are additional fees required for transaction,I'll report to the authorities,refusing,fake_fee,7,high,4,10/7/2025 20:30,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0739,Follow the instructions exactly,I'll verify with official sources,verification,emotional_manipulation,6,high,5,1/3/2025 7:32,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0740,International transfer authorization code,This is obvious scam,verification,fake_fee,7,high,4,12/2/2024 9:10,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0741,Follow the instructions exactly,This doesn't make sense,verification,fake_fee,10,critical,4,5/10/2025 1:42,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0742,I will lose my job if you don't pay,I'll report to the authorities,delaying,fake_authority,7,high,3,11/6/2025 22:40,0,1,0,0,0,1,2,0,0,0,3,1,fake_authority,0
+SCAM_0743,Security deposit needed for verification,"I'm not in a hurry, I can wait",questioning,emotional_manipulation,5,medium,5,6/4/2025 9:27,0,0,0,0,1,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0744,Document processing fee,"I have enough money, I don't need to withdraw now",verification,emotional_manipulation,7,high,4,5/27/2025 12:29,0,1,0,0,0,0,1,0,1,0,4,1,emotional_manipulation,1
+SCAM_0745,Tax clearance certificate fee required,I'll check with the bank first,delaying,fake_fee,10,critical,4,5/11/2025 22:54,0,1,0,0,0,0,1,1,0,0,4,1,fake_fee,1
+SCAM_0746,Security deposit needed for verification,"I'm not in a hurry, I can wait",delaying,isolation,10,critical,3,3/16/2025 23:12,0,0,0,0,1,0,1,0,1,0,3,1,isolation,0
+SCAM_0747,Security deposit needed for verification,Can you provide official documentation?,expert_mention,isolation,9,critical,4,7/13/2025 22:57,0,0,0,0,1,0,1,0,0,0,4,1,isolation,1
+SCAM_0748,This is your last chance to withdraw,This contradicts standard banking procedures,expert_mention,fake_authority,8,high,5,7/10/2025 20:45,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0749,This is your last chance to withdraw,"I have enough money, I don't need to withdraw now",questioning,threat,10,critical,5,12/30/2024 18:18,0,0,0,0,0,0,0,0,1,0,5,1,threat,1
+SCAM_0750,International transfer authorization code,Can you provide official documentation?,delaying,urgency,7,high,4,2/25/2025 19:06,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0751,Account activation charge,I'll check the company's official website,delaying,fake_fee,10,critical,3,5/22/2025 10:50,0,1,0,0,0,0,1,1,0,0,3,1,fake_fee,0
+SCAM_0752,Tax clearance certificate fee required,Why the rush?,counter_attack,emotional_manipulation,6,high,4,11/1/2025 11:51,0,1,0,0,0,0,1,0,0,0,4,1,emotional_manipulation,1
+SCAM_0753,Trust me my dear,Can you provide official documentation?,expert_mention,threat,9,critical,4,8/28/2025 7:11,0,0,2,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0754,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",verification,isolation,8,high,4,8/18/2025 17:59,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0755,Currency conversion fee mandatory,I work in cybersecurity and I know these tactics,questioning,isolation,10,critical,3,8/7/2025 7:37,0,1,0,0,1,0,2,0,1,1,3,1,isolation,0
+SCAM_0756,Currency conversion fee mandatory,I'll think about it,refusing,urgency,6,high,5,3/28/2025 4:54,0,1,0,0,1,0,2,0,0,0,5,1,urgency,1
+SCAM_0757,Tax clearance certificate fee required,I'll verify with official sources,delaying,threat,10,critical,3,9/11/2025 2:22,0,1,0,0,0,0,1,1,0,0,3,1,threat,0
+SCAM_0758,Don't talk to the bank about this,I'll check with the bank first,refusing,emotional_manipulation,7,high,5,9/14/2025 17:40,0,0,0,0,0,0,0,1,0,0,5,1,emotional_manipulation,1
+SCAM_0759,Trust me my dear,There is no such thing as IMF code,refusing,isolation,10,critical,5,8/20/2025 22:50,0,0,2,0,0,0,2,0,1,0,5,1,isolation,1
+SCAM_0760,Emergency service charge,I prefer to wait for official communication,refusing,urgency,6,high,4,7/31/2025 9:57,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0761,Account activation charge,I work in cybersecurity and I know these tactics,delaying,fake_authority,7,high,3,5/25/2025 7:08,0,1,0,0,0,0,1,0,1,1,3,1,fake_authority,0
+SCAM_0762,Currency conversion fee mandatory,I'll wait for technical support response,verification,isolation,9,critical,5,6/29/2025 12:11,0,1,0,0,1,0,2,0,0,0,5,1,isolation,1
+SCAM_0763,Urgent payment required to unlock funds,This doesn't make sense,delaying,threat,10,critical,3,8/22/2025 22:43,1,1,0,0,0,0,2,0,0,0,3,1,threat,0
+SCAM_0764,Follow the instructions exactly,I prefer to wait for official communication,refusing,emotional_manipulation,7,high,5,3/24/2025 2:34,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0765,You must pay immediately before expiration,The bank confirmed these requirements don't exist,counter_attack,fake_authority,9,critical,4,10/11/2025 11:45,1,1,0,0,0,0,2,1,0,0,4,1,fake_authority,1
+SCAM_0766,Tax clearance certificate fee required,The bank confirmed these requirements don't exist,verification,fake_fee,9,critical,5,9/20/2025 5:16,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0767,Account activation charge,I'll think about it,delaying,isolation,9,critical,3,4/23/2025 22:52,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0768,I will lose my job if you don't pay,"I have enough money, I don't need to withdraw now",questioning,emotional_manipulation,5,medium,5,8/13/2025 18:28,0,1,0,0,0,1,2,0,1,0,5,1,emotional_manipulation,1
+SCAM_0769,Currency conversion fee mandatory,I'll check the company's official website,expert_mention,threat,10,critical,4,10/11/2025 20:37,0,1,0,0,1,0,2,1,0,0,4,1,threat,1
+SCAM_0770,This is a mandatory security procedure,There is no such thing as IMF code,counter_attack,isolation,9,critical,5,5/11/2025 16:35,0,0,0,0,2,0,2,0,1,0,5,1,isolation,1
+SCAM_0771,Currency conversion fee mandatory,I'll verify with official sources,verification,emotional_manipulation,7,high,4,9/10/2025 2:07,0,1,0,0,1,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0772,This is your last chance to withdraw,This contradicts standard banking procedures,expert_mention,isolation,10,critical,5,12/25/2024 9:20,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0773,This is a mandatory security procedure,I'll check the company's official website,counter_attack,emotional_manipulation,4,medium,4,3/4/2025 16:03,0,0,0,0,2,0,2,1,0,0,4,1,emotional_manipulation,1
+SCAM_0774,Security deposit needed for verification,Let me verify this with customer service,expert_mention,emotional_manipulation,6,high,4,9/21/2025 6:27,0,0,0,0,1,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0775,Your account will be blocked if you don't pay,This contradicts standard banking procedures,verification,threat,9,critical,4,11/9/2025 13:49,0,1,0,0,0,1,2,0,0,0,4,1,threat,1
+SCAM_0776,Your account will be blocked if you don't pay,I'll think about it,counter_attack,fake_fee,10,critical,4,7/2/2025 10:03,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0777,Account activation charge,This doesn't make sense,counter_attack,isolation,10,critical,5,4/22/2025 8:16,0,1,0,0,0,0,1,0,0,0,5,1,isolation,1
+SCAM_0778,Account activation charge,Can you provide official documentation?,counter_attack,threat,9,critical,5,5/16/2025 5:10,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0779,Emergency service charge,I'll check the company's official website,delaying,isolation,9,critical,3,8/1/2025 12:21,0,1,0,0,0,0,1,1,0,0,3,1,isolation,0
+SCAM_0780,Trust me my dear,This contradicts standard banking procedures,questioning,fake_authority,7,high,4,12/7/2024 10:36,0,0,2,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0781,Emergency service charge,Can you provide official documentation?,counter_attack,urgency,7,high,5,7/10/2025 20:14,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0782,Tax clearance certificate fee required,There is no such thing as IMF code,refusing,fake_fee,8,high,4,6/6/2025 2:08,0,1,0,0,0,0,1,0,1,0,4,1,fake_fee,1
+SCAM_0783,There are additional fees required for transaction,This seems suspicious,delaying,fake_authority,9,critical,4,2/28/2025 21:09,0,1,0,0,0,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0784,This is 100% legitimate process,I'll report to the authorities,verification,emotional_manipulation,5,medium,5,6/13/2025 20:09,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0785,I will lose my job if you don't pay,Let me verify this with customer service,expert_mention,fake_fee,8,high,4,1/16/2025 13:21,0,1,0,0,0,1,2,1,0,0,4,1,fake_fee,1
+SCAM_0786,This is 100% legitimate process,There is no such thing as IMF code,counter_attack,threat,10,critical,4,5/17/2025 20:06,0,0,0,0,0,0,0,0,1,0,4,1,threat,1
+SCAM_0787,Trust me my dear,Can you provide official documentation?,refusing,fake_fee,7,high,5,6/14/2025 15:20,0,0,2,0,0,0,2,0,0,0,5,1,fake_fee,1
+SCAM_0788,Security deposit needed for verification,"I'm not in a hurry, I can wait",expert_mention,threat,9,critical,4,4/24/2025 18:05,0,0,0,0,1,0,1,0,1,0,4,1,threat,1
+SCAM_0789,Currency conversion fee mandatory,I'll think about it,counter_attack,urgency,8,high,5,10/4/2025 11:21,0,1,0,0,1,0,2,0,0,0,5,1,urgency,1
+SCAM_0790,I will lose my job if you don't pay,I'll verify with official sources,expert_mention,fake_fee,7,high,4,5/10/2025 3:50,0,1,0,0,0,1,2,1,0,0,4,1,fake_fee,1
+SCAM_0791,Urgent payment required to unlock funds,I need to consult with financial advisor,delaying,emotional_manipulation,4,medium,4,3/21/2025 21:09,1,1,0,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0792,Document processing fee,This doesn't make sense,verification,fake_fee,9,critical,4,9/2/2025 12:32,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0793,Tax clearance certificate fee required,This doesn't make sense,delaying,isolation,8,high,3,1/25/2025 9:15,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0794,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",expert_mention,fake_authority,9,critical,4,8/5/2025 0:39,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0795,Tax clearance certificate fee required,The bank confirmed these requirements don't exist,questioning,isolation,9,critical,3,7/11/2025 8:37,0,1,0,0,0,0,1,1,0,0,3,1,isolation,0
+SCAM_0796,Don't talk to the bank about this,I prefer to wait for official communication,delaying,urgency,7,high,4,6/28/2025 10:27,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0797,This is 100% legitimate process,Why the rush?,questioning,emotional_manipulation,4,medium,4,12/10/2024 1:56,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0798,This is your last chance to withdraw,This doesn't make sense,expert_mention,fake_authority,9,critical,5,4/20/2025 23:44,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0799,Tax clearance certificate fee required,I'll check with the bank first,counter_attack,threat,10,critical,4,4/22/2025 19:45,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0800,I will lose my job if you don't pay,I'll check the company's official website,refusing,fake_fee,9,critical,5,11/18/2025 10:26,0,1,0,0,0,1,2,1,0,0,5,1,fake_fee,1
+SCAM_0801,Security deposit needed for verification,There is no such thing as IMF code,counter_attack,emotional_manipulation,7,high,5,7/29/2025 14:24,0,0,0,0,1,0,1,0,1,0,5,1,emotional_manipulation,1
+SCAM_0802,You need to pay IMF code to withdraw your salary,I'll check the company's official website,refusing,urgency,6,high,5,3/25/2025 10:24,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0803,Account activation charge,This doesn't make sense,delaying,urgency,8,high,3,8/26/2025 15:25,0,1,0,0,0,0,1,0,0,0,3,1,urgency,0
+SCAM_0804,Currency conversion fee mandatory,Let me verify this with customer service,counter_attack,fake_fee,10,critical,4,5/21/2025 19:01,0,1,0,0,1,0,2,1,0,0,4,1,fake_fee,1
+SCAM_0805,Security deposit needed for verification,This doesn't make sense,questioning,urgency,8,high,5,9/26/2025 13:02,0,0,0,0,1,0,1,0,0,0,5,1,urgency,1
+SCAM_0806,Document processing fee,I need to consult with financial advisor,delaying,isolation,9,critical,3,11/5/2025 22:43,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0807,Security deposit needed for verification,"I have enough money, I don't need to withdraw now",refusing,emotional_manipulation,4,medium,4,2/24/2025 2:05,0,0,0,0,1,0,1,0,1,0,4,1,emotional_manipulation,1
+SCAM_0808,Document processing fee,Why the rush?,expert_mention,fake_authority,8,high,5,10/11/2025 9:13,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0809,Follow the instructions exactly,I'll check the company's official website,expert_mention,urgency,8,high,4,9/10/2025 8:11,0,0,0,0,0,0,0,1,0,0,4,1,urgency,1
+SCAM_0810,This is 100% legitimate process,This is obvious scam,refusing,isolation,9,critical,4,12/17/2024 12:42,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0811,Don't talk to the bank about this,This doesn't make sense,verification,urgency,8,high,4,11/22/2025 19:09,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0812,Account activation charge,Why the rush?,refusing,urgency,7,high,5,12/11/2024 5:24,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0813,Tax clearance certificate fee required,I'll think about it,delaying,isolation,9,critical,3,2/28/2025 5:40,0,1,0,0,0,0,1,0,0,0,3,1,isolation,0
+SCAM_0814,Emergency service charge,The bank confirmed these requirements don't exist,delaying,fake_authority,7,high,3,3/23/2025 6:28,0,1,0,0,0,0,1,1,0,0,3,1,fake_authority,0
+SCAM_0815,Account activation charge,This contradicts standard banking procedures,delaying,urgency,7,high,4,1/3/2025 1:06,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0816,Document processing fee,Can you provide official documentation?,counter_attack,urgency,7,high,4,10/21/2025 20:30,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0817,You need to pay IMF code to withdraw your salary,There is no such thing as IMF code,expert_mention,threat,9,critical,5,5/9/2025 19:57,0,1,0,0,0,0,1,0,1,0,5,1,threat,1
+SCAM_0818,This is 100% legitimate process,This doesn't make sense,expert_mention,fake_fee,8,high,4,10/19/2025 1:53,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0819,Security deposit needed for verification,I'll verify with official sources,delaying,urgency,9,critical,3,7/14/2025 9:31,0,0,0,0,1,0,1,1,0,0,3,1,urgency,0
+SCAM_0820,Tax clearance certificate fee required,I'll verify with official sources,counter_attack,threat,10,critical,4,8/15/2025 5:55,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0821,This is 100% legitimate process,I'll think about it,verification,threat,9,critical,4,10/28/2025 22:25,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0822,You need to pay IMF code to withdraw your salary,I work in cybersecurity and I know these tactics,verification,emotional_manipulation,5,medium,5,8/6/2025 17:19,0,1,0,0,0,0,1,0,1,1,5,1,emotional_manipulation,1
+SCAM_0823,Currency conversion fee mandatory,"I'm not in a hurry, I can wait",counter_attack,isolation,8,high,4,11/29/2024 10:23,0,1,0,0,1,0,2,0,1,0,4,1,isolation,1
+SCAM_0824,Don't talk to the bank about this,"I have enough money, I don't need to withdraw now",refusing,fake_authority,9,critical,4,8/2/2025 8:41,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0825,Urgent payment required to unlock funds,I'll wait for technical support response,refusing,fake_authority,9,critical,4,3/19/2025 1:51,1,1,0,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0826,Don't talk to the bank about this,Can you provide official documentation?,delaying,fake_fee,8,high,4,11/21/2025 1:28,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0827,Document processing fee,Let me verify this with customer service,counter_attack,isolation,9,critical,4,7/23/2025 14:41,0,1,0,0,0,0,1,1,0,0,4,1,isolation,1
+SCAM_0828,Account activation charge,Let me verify this with customer service,delaying,fake_authority,8,high,4,7/27/2025 19:26,0,1,0,0,0,0,1,1,0,0,4,1,fake_authority,1
+SCAM_0829,International transfer authorization code,I'll think about it,refusing,fake_authority,7,high,5,11/28/2024 6:46,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0830,You need to pay IMF code to withdraw your salary,I'll verify with official sources,verification,isolation,10,critical,5,12/29/2024 23:31,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0831,Follow the instructions exactly,I'll wait for technical support response,delaying,urgency,7,high,4,8/28/2025 2:52,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0832,This is your last chance to withdraw,I'll think about it,verification,threat,10,critical,5,8/4/2025 4:05,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0833,I will lose my job if you don't pay,"I'm not in a hurry, I can wait",expert_mention,emotional_manipulation,7,high,4,7/8/2025 11:13,0,1,0,0,0,1,2,0,1,0,4,1,emotional_manipulation,1
+SCAM_0834,Tax clearance certificate fee required,I'll report to the authorities,questioning,threat,9,critical,3,6/6/2025 3:34,0,1,0,0,0,0,1,0,0,0,3,1,threat,0
+SCAM_0835,Follow the instructions exactly,I prefer to wait for official communication,verification,isolation,10,critical,4,1/14/2025 18:10,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0836,Don't talk to the bank about this,I'll report to the authorities,verification,fake_authority,8,high,5,3/29/2025 12:57,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0837,You must pay immediately before expiration,I'll verify with official sources,expert_mention,isolation,10,critical,5,6/23/2025 8:55,1,1,0,0,0,0,2,1,0,0,5,1,isolation,1
+SCAM_0838,You need to pay IMF code to withdraw your salary,"I have enough money, I don't need to withdraw now",questioning,threat,10,critical,5,2/19/2025 16:04,0,1,0,0,0,0,1,0,1,0,5,1,threat,1
+SCAM_0839,Follow the instructions exactly,I'll report to the authorities,refusing,fake_authority,7,high,4,1/22/2025 9:14,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0840,You need to pay IMF code to withdraw your salary,Let me verify this with customer service,counter_attack,fake_fee,7,high,5,3/20/2025 21:30,0,1,0,0,0,0,1,1,0,0,5,1,fake_fee,1
+SCAM_0841,Document processing fee,Can you provide official documentation?,verification,threat,10,critical,5,1/14/2025 11:16,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0842,Tax clearance certificate fee required,This contradicts standard banking procedures,expert_mention,threat,9,critical,5,4/19/2025 2:26,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0843,Trust me my dear,The bank confirmed these requirements don't exist,verification,threat,9,critical,4,9/18/2025 1:08,0,0,2,0,0,0,2,1,0,0,4,1,threat,1
+SCAM_0844,Account activation charge,I prefer to wait for official communication,questioning,urgency,7,high,5,8/29/2025 15:35,0,1,0,0,0,0,1,0,0,0,5,1,urgency,1
+SCAM_0845,Don't talk to the bank about this,I work in cybersecurity and I know these tactics,refusing,fake_fee,8,high,4,11/17/2025 11:00,0,0,0,0,0,0,0,0,1,1,4,1,fake_fee,1
+SCAM_0846,Follow the instructions exactly,I work in cybersecurity and I know these tactics,counter_attack,fake_authority,8,high,4,12/17/2024 10:35,0,0,0,0,0,0,0,0,1,1,4,1,fake_authority,1
+SCAM_0847,Follow the instructions exactly,I work in cybersecurity and I know these tactics,questioning,fake_authority,7,high,4,11/8/2025 23:43,0,0,0,0,0,0,0,0,1,1,4,1,fake_authority,1
+SCAM_0848,There are limited offers today only,This is obvious scam,questioning,isolation,8,high,5,12/25/2024 1:47,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0849,This is your last chance to withdraw,Let me verify this with customer service,questioning,urgency,8,high,5,11/12/2025 15:15,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0850,Security deposit needed for verification,I'll think about it,delaying,fake_authority,9,critical,3,3/16/2025 23:39,0,0,0,0,1,0,1,0,0,0,3,1,fake_authority,0
+SCAM_0851,Trust me my dear,I prefer to wait for official communication,refusing,fake_fee,10,critical,4,8/20/2025 19:58,0,0,2,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0852,This is your last chance to withdraw,I'll wait for technical support response,questioning,emotional_manipulation,7,high,3,4/1/2025 0:50,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0853,This is 100% legitimate process,I need to consult with financial advisor,counter_attack,emotional_manipulation,5,medium,4,9/18/2025 12:33,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0854,Don't talk to the bank about this,This seems suspicious,expert_mention,fake_fee,9,critical,4,10/11/2025 4:27,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0855,Document processing fee,This contradicts standard banking procedures,verification,fake_authority,7,high,5,12/27/2024 19:34,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0856,Your account will be blocked if you don't pay,There is no such thing as IMF code,delaying,urgency,9,critical,4,10/7/2025 1:02,0,1,0,0,0,1,2,0,1,0,4,1,urgency,1
+SCAM_0857,Account activation charge,Can you provide official documentation?,questioning,threat,10,critical,4,2/8/2025 21:25,0,1,0,0,0,0,1,0,0,0,4,1,threat,1
+SCAM_0858,You must pay immediately before expiration,"I'm not in a hurry, I can wait",counter_attack,threat,10,critical,4,4/16/2025 2:10,1,1,0,0,0,0,2,0,1,0,4,1,threat,1
+SCAM_0859,Security deposit needed for verification,I'll check the company's official website,questioning,fake_authority,9,critical,3,3/23/2025 1:14,0,0,0,0,1,0,1,1,0,0,3,1,fake_authority,0
+SCAM_0860,Account activation charge,"I'm not in a hurry, I can wait",verification,urgency,7,high,4,9/30/2025 19:57,0,1,0,0,0,0,1,0,1,0,4,1,urgency,1
+SCAM_0861,Urgent payment required to unlock funds,This is obvious scam,counter_attack,fake_authority,9,critical,5,2/11/2025 4:15,1,1,0,0,0,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0862,Follow the instructions exactly,I prefer to wait for official communication,verification,fake_fee,8,high,5,4/5/2025 3:32,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0863,Document processing fee,I work in cybersecurity and I know these tactics,delaying,emotional_manipulation,7,high,3,8/27/2025 11:23,0,1,0,0,0,0,1,0,1,1,3,1,emotional_manipulation,0
+SCAM_0864,I will lose my job if you don't pay,I'll check with the bank first,expert_mention,fake_fee,9,critical,5,2/15/2025 4:03,0,1,0,0,0,1,2,1,0,0,5,1,fake_fee,1
+SCAM_0865,Trust me my dear,There is no such thing as IMF code,counter_attack,emotional_manipulation,4,medium,4,1/19/2025 9:43,0,0,2,0,0,0,2,0,1,0,4,1,emotional_manipulation,1
+SCAM_0866,Don't talk to the bank about this,I need to consult with financial advisor,expert_mention,isolation,9,critical,5,5/20/2025 18:52,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0867,This is a mandatory security procedure,I need to consult with financial advisor,delaying,fake_authority,7,high,3,6/24/2025 18:45,0,0,0,0,2,0,2,0,0,0,3,1,fake_authority,0
+SCAM_0868,Document processing fee,I'll wait for technical support response,questioning,urgency,6,high,4,5/16/2025 1:07,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0869,You need to pay IMF code to withdraw your salary,I work in cybersecurity and I know these tactics,verification,urgency,8,high,5,7/10/2025 4:16,0,1,0,0,0,0,1,0,1,1,5,1,urgency,1
+SCAM_0870,Don't talk to the bank about this,I'll report to the authorities,counter_attack,fake_fee,10,critical,4,8/29/2025 8:26,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0871,There are limited offers today only,I prefer to wait for official communication,verification,threat,10,critical,4,9/1/2025 0:20,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0872,International transfer authorization code,"I'm not in a hurry, I can wait",refusing,isolation,10,critical,4,10/5/2025 16:55,0,0,0,0,0,0,0,0,1,0,4,1,isolation,1
+SCAM_0873,Urgent payment required to unlock funds,I prefer to wait for official communication,expert_mention,fake_fee,9,critical,4,6/14/2025 20:37,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0874,This is 100% legitimate process,I prefer to wait for official communication,verification,fake_fee,9,critical,4,6/11/2025 3:20,0,0,0,0,0,0,0,0,0,0,4,1,fake_fee,1
+SCAM_0875,Don't talk to the bank about this,The bank confirmed these requirements don't exist,counter_attack,threat,9,critical,5,9/9/2025 16:19,0,0,0,0,0,0,0,1,0,0,5,1,threat,1
+SCAM_0876,Security deposit needed for verification,I'll think about it,verification,fake_authority,9,critical,5,5/29/2025 13:55,0,0,0,0,1,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0877,You must pay immediately before expiration,"I have enough money, I don't need to withdraw now",refusing,threat,9,critical,4,4/12/2025 15:12,1,1,0,0,0,0,2,0,1,0,4,1,threat,1
+SCAM_0878,Tax clearance certificate fee required,I prefer to wait for official communication,counter_attack,isolation,10,critical,4,11/10/2025 2:36,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0879,There are limited offers today only,This seems suspicious,expert_mention,emotional_manipulation,7,high,4,2/18/2025 7:49,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0880,I will lose my job if you don't pay,The bank confirmed these requirements don't exist,verification,fake_authority,8,high,4,2/2/2025 19:50,0,1,0,0,0,1,2,1,0,0,4,1,fake_authority,1
+SCAM_0881,Follow the instructions exactly,The bank confirmed these requirements don't exist,verification,urgency,9,critical,5,10/28/2025 0:38,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0882,Your account will be blocked if you don't pay,I'll verify with official sources,delaying,fake_fee,7,high,4,1/13/2025 20:53,0,1,0,0,0,1,2,1,0,0,4,1,fake_fee,1
+SCAM_0883,There are limited offers today only,This seems suspicious,refusing,isolation,10,critical,4,10/13/2025 6:16,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0884,I will lose my job if you don't pay,This doesn't make sense,refusing,fake_fee,8,high,4,11/15/2025 1:47,0,1,0,0,0,1,2,0,0,0,4,1,fake_fee,1
+SCAM_0885,Emergency service charge,"I'm not in a hurry, I can wait",verification,urgency,8,high,4,7/25/2025 20:47,0,1,0,0,0,0,1,0,1,0,4,1,urgency,1
+SCAM_0886,Document processing fee,This contradicts standard banking procedures,delaying,fake_fee,10,critical,3,1/16/2025 6:13,0,1,0,0,0,0,1,0,0,0,3,1,fake_fee,0
+SCAM_0887,Your account will be blocked if you don't pay,The bank confirmed these requirements don't exist,counter_attack,urgency,8,high,4,12/6/2024 5:42,0,1,0,0,0,1,2,1,0,0,4,1,urgency,1
+SCAM_0888,This is 100% legitimate process,I'll verify with official sources,delaying,isolation,9,critical,4,1/4/2025 18:01,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0889,Account activation charge,I need to consult with financial advisor,verification,isolation,10,critical,4,12/11/2024 6:39,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0890,Account activation charge,I'll check with the bank first,questioning,emotional_manipulation,5,medium,4,9/11/2025 10:43,0,1,0,0,0,0,1,1,0,0,4,1,emotional_manipulation,1
+SCAM_0891,Don't talk to the bank about this,I'll verify with official sources,questioning,threat,10,critical,3,1/31/2025 4:40,0,0,0,0,0,0,0,1,0,0,3,1,threat,0
+SCAM_0892,This is your last chance to withdraw,This doesn't make sense,delaying,emotional_manipulation,5,medium,3,4/24/2025 21:22,0,0,0,0,0,0,0,0,0,0,3,1,emotional_manipulation,0
+SCAM_0893,Security deposit needed for verification,I'll check with the bank first,counter_attack,isolation,8,high,5,7/15/2025 7:52,0,0,0,0,1,0,1,1,0,0,5,1,isolation,1
+SCAM_0894,You must pay immediately before expiration,I'll wait for technical support response,questioning,urgency,8,high,4,1/17/2025 3:01,1,1,0,0,0,0,2,0,0,0,4,1,urgency,1
+SCAM_0895,This is a mandatory security procedure,I'll wait for technical support response,counter_attack,urgency,6,high,4,3/24/2025 4:50,0,0,0,0,2,0,2,0,0,0,4,1,urgency,1
+SCAM_0896,This is your last chance to withdraw,This seems suspicious,expert_mention,fake_fee,7,high,5,2/23/2025 8:27,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0897,Document processing fee,I'll check with the bank first,delaying,emotional_manipulation,5,medium,3,5/31/2025 2:54,0,1,0,0,0,0,1,1,0,0,3,1,emotional_manipulation,0
+SCAM_0898,Don't talk to the bank about this,I'll think about it,expert_mention,urgency,7,high,4,9/8/2025 15:21,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0899,This is a mandatory security procedure,This seems suspicious,counter_attack,fake_authority,8,high,5,9/13/2025 19:43,0,0,0,0,2,0,2,0,0,0,5,1,fake_authority,1
+SCAM_0900,Document processing fee,There is no such thing as IMF code,counter_attack,fake_authority,9,critical,4,12/22/2024 6:31,0,1,0,0,0,0,1,0,1,0,4,1,fake_authority,1
+SCAM_0901,International transfer authorization code,I prefer to wait for official communication,refusing,emotional_manipulation,6,high,5,10/18/2025 1:50,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0902,Urgent payment required to unlock funds,I'll report to the authorities,delaying,emotional_manipulation,5,medium,3,1/18/2025 2:36,1,1,0,0,0,0,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0903,Follow the instructions exactly,This doesn't make sense,counter_attack,isolation,8,high,5,11/17/2025 16:11,0,0,0,0,0,0,0,0,0,0,5,1,isolation,1
+SCAM_0904,Don't talk to the bank about this,I work in cybersecurity and I know these tactics,expert_mention,urgency,7,high,5,1/12/2025 12:59,0,0,0,0,0,0,0,0,1,1,5,1,urgency,1
+SCAM_0905,Account activation charge,Can you provide official documentation?,refusing,fake_authority,7,high,4,10/16/2025 1:58,0,1,0,0,0,0,1,0,0,0,4,1,fake_authority,1
+SCAM_0906,Urgent payment required to unlock funds,Let me verify this with customer service,expert_mention,urgency,9,critical,5,10/7/2025 5:30,1,1,0,0,0,0,2,1,0,0,5,1,urgency,1
+SCAM_0907,I will lose my job if you don't pay,I prefer to wait for official communication,verification,fake_authority,8,high,4,4/14/2025 7:46,0,1,0,0,0,1,2,0,0,0,4,1,fake_authority,1
+SCAM_0908,Follow the instructions exactly,"I have enough money, I don't need to withdraw now",delaying,emotional_manipulation,6,high,4,6/21/2025 13:49,0,0,0,0,0,0,0,0,1,0,4,1,emotional_manipulation,1
+SCAM_0909,Your account will be blocked if you don't pay,I'll think about it,counter_attack,fake_fee,7,high,5,2/25/2025 2:57,0,1,0,0,0,1,2,0,0,0,5,1,fake_fee,1
+SCAM_0910,Urgent payment required to unlock funds,I need to consult with financial advisor,counter_attack,isolation,9,critical,5,11/13/2025 15:06,1,1,0,0,0,0,2,0,0,0,5,1,isolation,1
+SCAM_0911,You must pay immediately before expiration,I'll think about it,delaying,fake_authority,8,high,4,3/4/2025 9:38,1,1,0,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0912,Emergency service charge,Let me verify this with customer service,counter_attack,urgency,7,high,5,1/8/2025 16:50,0,1,0,0,0,0,1,1,0,0,5,1,urgency,1
+SCAM_0913,Trust me my dear,Can you provide official documentation?,counter_attack,emotional_manipulation,4,medium,4,12/13/2024 5:02,0,0,2,0,0,0,2,0,0,0,4,1,emotional_manipulation,1
+SCAM_0914,International transfer authorization code,This doesn't make sense,counter_attack,fake_fee,10,critical,5,1/18/2025 18:53,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0915,Account activation charge,I work in cybersecurity and I know these tactics,counter_attack,emotional_manipulation,4,medium,4,1/23/2025 7:19,0,1,0,0,0,0,1,0,1,1,4,1,emotional_manipulation,1
+SCAM_0916,There are limited offers today only,This seems suspicious,delaying,fake_authority,8,high,3,4/26/2025 7:47,0,0,0,0,0,0,0,0,0,0,3,1,fake_authority,0
+SCAM_0917,Emergency service charge,I'll wait for technical support response,questioning,threat,9,critical,3,6/1/2025 3:55,0,1,0,0,0,0,1,0,0,0,3,1,threat,0
+SCAM_0918,Urgent payment required to unlock funds,I'll verify with official sources,expert_mention,fake_authority,9,critical,5,9/3/2025 11:25,1,1,0,0,0,0,2,1,0,0,5,1,fake_authority,1
+SCAM_0919,You must pay immediately before expiration,I'll think about it,delaying,emotional_manipulation,5,medium,3,6/12/2025 0:19,1,1,0,0,0,0,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0920,Emergency service charge,Why the rush?,verification,threat,9,critical,5,1/31/2025 13:07,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0921,You must pay immediately before expiration,I need to consult with financial advisor,refusing,threat,10,critical,4,5/16/2025 8:04,1,1,0,0,0,0,2,0,0,0,4,1,threat,1
+SCAM_0922,Tax clearance certificate fee required,"I'm not in a hurry, I can wait",expert_mention,isolation,10,critical,4,6/27/2025 18:49,0,1,0,0,0,0,1,0,1,0,4,1,isolation,1
+SCAM_0923,Tax clearance certificate fee required,Can you provide official documentation?,refusing,isolation,9,critical,5,11/6/2025 19:01,0,1,0,0,0,0,1,0,0,0,5,1,isolation,1
+SCAM_0924,Urgent payment required to unlock funds,"I'm not in a hurry, I can wait",questioning,isolation,8,high,5,7/11/2025 13:07,1,1,0,0,0,0,2,0,1,0,5,1,isolation,1
+SCAM_0925,Follow the instructions exactly,I'll check with the bank first,counter_attack,isolation,8,high,4,4/6/2025 6:23,0,0,0,0,0,0,0,1,0,0,4,1,isolation,1
+SCAM_0926,There are limited offers today only,I'll wait for technical support response,questioning,emotional_manipulation,7,high,5,5/22/2025 18:21,0,0,0,0,0,0,0,0,0,0,5,1,emotional_manipulation,1
+SCAM_0927,I will lose my job if you don't pay,This is obvious scam,expert_mention,fake_authority,7,high,5,12/31/2024 19:47,0,1,0,0,0,1,2,0,0,0,5,1,fake_authority,1
+SCAM_0928,There are limited offers today only,Why the rush?,delaying,urgency,7,high,3,7/11/2025 14:14,0,0,0,0,0,0,0,0,0,0,3,1,urgency,0
+SCAM_0929,Document processing fee,I prefer to wait for official communication,delaying,urgency,8,high,4,11/2/2025 10:09,0,1,0,0,0,0,1,0,0,0,4,1,urgency,1
+SCAM_0930,Emergency service charge,I'll report to the authorities,questioning,isolation,10,critical,4,2/21/2025 17:24,0,1,0,0,0,0,1,0,0,0,4,1,isolation,1
+SCAM_0931,There are limited offers today only,I prefer to wait for official communication,counter_attack,fake_authority,7,high,5,10/25/2025 1:00,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0932,Currency conversion fee mandatory,This contradicts standard banking procedures,refusing,urgency,8,high,4,3/19/2025 1:42,0,1,0,0,1,0,2,0,0,0,4,1,urgency,1
+SCAM_0933,You must pay immediately before expiration,"I'm not in a hurry, I can wait",counter_attack,urgency,9,critical,5,7/6/2025 0:09,1,1,0,0,0,0,2,0,1,0,5,1,urgency,1
+SCAM_0934,This is 100% legitimate process,I'll think about it,verification,urgency,7,high,5,6/4/2025 21:23,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0935,Security deposit needed for verification,I'll verify with official sources,counter_attack,urgency,9,critical,5,6/15/2025 10:27,0,0,0,0,1,0,1,1,0,0,5,1,urgency,1
+SCAM_0936,This is a mandatory security procedure,This contradicts standard banking procedures,delaying,threat,9,critical,3,6/22/2025 0:32,0,0,0,0,2,0,2,0,0,0,3,1,threat,0
+SCAM_0937,Currency conversion fee mandatory,Why the rush?,expert_mention,isolation,8,high,4,1/8/2025 9:57,0,1,0,0,1,0,2,0,0,0,4,1,isolation,1
+SCAM_0938,There are additional fees required for transaction,The bank confirmed these requirements don't exist,counter_attack,fake_fee,9,critical,4,10/4/2025 9:59,0,1,0,0,0,0,1,1,0,0,4,1,fake_fee,1
+SCAM_0939,International transfer authorization code,I'll check with the bank first,expert_mention,threat,9,critical,4,10/5/2025 17:06,0,0,0,0,0,0,0,1,0,0,4,1,threat,1
+SCAM_0940,Document processing fee,"I'm not in a hurry, I can wait",verification,urgency,9,critical,5,1/25/2025 7:39,0,1,0,0,0,0,1,0,1,0,5,1,urgency,1
+SCAM_0941,I will lose my job if you don't pay,I work in cybersecurity and I know these tactics,refusing,emotional_manipulation,5,medium,5,12/8/2024 7:54,0,1,0,0,0,1,2,0,1,1,5,1,emotional_manipulation,1
+SCAM_0942,This is a mandatory security procedure,I work in cybersecurity and I know these tactics,delaying,fake_authority,9,critical,4,7/13/2025 1:20,0,0,0,0,2,0,2,0,1,1,4,1,fake_authority,1
+SCAM_0943,This is 100% legitimate process,I'll check with the bank first,delaying,urgency,7,high,3,12/21/2024 22:10,0,0,0,0,0,0,0,1,0,0,3,1,urgency,0
+SCAM_0944,Don't talk to the bank about this,This seems suspicious,verification,fake_fee,9,critical,5,7/28/2025 13:48,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_0945,This is a mandatory security procedure,There is no such thing as IMF code,refusing,urgency,6,high,5,4/13/2025 8:36,0,0,0,0,2,0,2,0,1,0,5,1,urgency,1
+SCAM_0946,Your account will be blocked if you don't pay,I'll report to the authorities,counter_attack,urgency,7,high,4,7/9/2025 19:48,0,1,0,0,0,1,2,0,0,0,4,1,urgency,1
+SCAM_0947,Trust me my dear,I'll check with the bank first,expert_mention,fake_authority,8,high,5,1/28/2025 17:46,0,0,2,0,0,0,2,1,0,0,5,1,fake_authority,1
+SCAM_0948,Security deposit needed for verification,I'll think about it,questioning,fake_authority,7,high,3,11/5/2025 8:41,0,0,0,0,1,0,1,0,0,0,3,1,fake_authority,0
+SCAM_0949,You need to pay IMF code to withdraw your salary,There is no such thing as IMF code,verification,isolation,9,critical,5,3/26/2025 15:14,0,1,0,0,0,0,1,0,1,0,5,1,isolation,1
+SCAM_0950,There are limited offers today only,"I'm not in a hurry, I can wait",expert_mention,fake_authority,8,high,4,9/1/2025 6:20,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0951,International transfer authorization code,I'll check the company's official website,counter_attack,emotional_manipulation,5,medium,4,10/15/2025 12:12,0,0,0,0,0,0,0,1,0,0,4,1,emotional_manipulation,1
+SCAM_0952,Emergency service charge,I'll verify with official sources,verification,threat,9,critical,5,2/27/2025 14:05,0,1,0,0,0,0,1,1,0,0,5,1,threat,1
+SCAM_0953,Trust me my dear,I'll check the company's official website,expert_mention,urgency,9,critical,5,10/2/2025 9:05,0,0,2,0,0,0,2,1,0,0,5,1,urgency,1
+SCAM_0954,Security deposit needed for verification,I'll wait for technical support response,delaying,threat,9,critical,4,1/13/2025 22:48,0,0,0,0,1,0,1,0,0,0,4,1,threat,1
+SCAM_0955,Urgent payment required to unlock funds,This is obvious scam,delaying,fake_authority,9,critical,3,4/19/2025 13:30,1,1,0,0,0,0,2,0,0,0,3,1,fake_authority,0
+SCAM_0956,You must pay immediately before expiration,I'll report to the authorities,counter_attack,fake_fee,10,critical,4,9/8/2025 17:44,1,1,0,0,0,0,2,0,0,0,4,1,fake_fee,1
+SCAM_0957,Emergency service charge,Let me verify this with customer service,questioning,threat,10,critical,4,8/29/2025 21:18,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0958,Document processing fee,I prefer to wait for official communication,refusing,threat,9,critical,5,4/23/2025 3:19,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0959,Tax clearance certificate fee required,This doesn't make sense,expert_mention,emotional_manipulation,4,medium,5,11/18/2025 22:10,0,1,0,0,0,0,1,0,0,0,5,1,emotional_manipulation,1
+SCAM_0960,Document processing fee,I'll check with the bank first,verification,isolation,8,high,5,11/25/2024 16:48,0,1,0,0,0,0,1,1,0,0,5,1,isolation,1
+SCAM_0961,This is your last chance to withdraw,There is no such thing as IMF code,refusing,fake_authority,8,high,4,5/11/2025 5:35,0,0,0,0,0,0,0,0,1,0,4,1,fake_authority,1
+SCAM_0962,Urgent payment required to unlock funds,There is no such thing as IMF code,refusing,urgency,7,high,5,1/2/2025 5:49,1,1,0,0,0,0,2,0,1,0,5,1,urgency,1
+SCAM_0963,Tax clearance certificate fee required,I need to consult with financial advisor,refusing,threat,10,critical,5,5/31/2025 3:04,0,1,0,0,0,0,1,0,0,0,5,1,threat,1
+SCAM_0964,You must pay immediately before expiration,This seems suspicious,questioning,emotional_manipulation,5,medium,5,5/21/2025 4:34,1,1,0,0,0,0,2,0,0,0,5,1,emotional_manipulation,1
+SCAM_0965,Follow the instructions exactly,Can you provide official documentation?,expert_mention,fake_authority,7,high,5,2/12/2025 0:41,0,0,0,0,0,0,0,0,0,0,5,1,fake_authority,1
+SCAM_0966,Your account will be blocked if you don't pay,This doesn't make sense,questioning,emotional_manipulation,5,medium,3,12/13/2024 16:31,0,1,0,0,0,1,2,0,0,0,3,1,emotional_manipulation,0
+SCAM_0967,International transfer authorization code,I need to consult with financial advisor,counter_attack,urgency,6,high,4,7/4/2025 4:29,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0968,Don't talk to the bank about this,Why the rush?,expert_mention,emotional_manipulation,4,medium,4,9/30/2025 19:17,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0969,Urgent payment required to unlock funds,Can you provide official documentation?,verification,urgency,9,critical,4,10/17/2025 23:17,1,1,0,0,0,0,2,0,0,0,4,1,urgency,1
+SCAM_0970,Security deposit needed for verification,This seems suspicious,verification,fake_fee,9,critical,5,10/20/2025 16:28,0,0,0,0,1,0,1,0,0,0,5,1,fake_fee,1
+SCAM_0971,This is 100% legitimate process,I need to consult with financial advisor,verification,isolation,10,critical,4,10/22/2025 8:44,0,0,0,0,0,0,0,0,0,0,4,1,isolation,1
+SCAM_0972,This is 100% legitimate process,I prefer to wait for official communication,verification,urgency,8,high,5,6/23/2025 19:59,0,0,0,0,0,0,0,0,0,0,5,1,urgency,1
+SCAM_0973,Follow the instructions exactly,I prefer to wait for official communication,delaying,threat,9,critical,3,7/12/2025 22:20,0,0,0,0,0,0,0,0,0,0,3,1,threat,0
+SCAM_0974,Emergency service charge,I'll verify with official sources,delaying,threat,9,critical,4,3/19/2025 9:27,0,1,0,0,0,0,1,1,0,0,4,1,threat,1
+SCAM_0975,Trust me my dear,I'll wait for technical support response,counter_attack,fake_authority,8,high,4,9/5/2025 16:48,0,0,2,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0976,Security deposit needed for verification,I need to consult with financial advisor,verification,fake_fee,8,high,4,7/31/2025 10:42,0,0,0,0,1,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0977,Trust me my dear,I'll wait for technical support response,verification,fake_authority,9,critical,4,2/24/2025 20:49,0,0,2,0,0,0,2,0,0,0,4,1,fake_authority,1
+SCAM_0978,This is 100% legitimate process,Why the rush?,delaying,urgency,7,high,4,2/3/2025 21:40,0,0,0,0,0,0,0,0,0,0,4,1,urgency,1
+SCAM_0979,This is your last chance to withdraw,This seems suspicious,verification,threat,9,critical,4,9/6/2025 14:51,0,0,0,0,0,0,0,0,0,0,4,1,threat,1
+SCAM_0980,This is your last chance to withdraw,The bank confirmed these requirements don't exist,refusing,fake_fee,8,high,5,12/11/2024 23:52,0,0,0,0,0,0,0,1,0,0,5,1,fake_fee,1
+SCAM_0981,Tax clearance certificate fee required,"I have enough money, I don't need to withdraw now",expert_mention,isolation,8,high,5,12/9/2024 20:05,0,1,0,0,0,0,1,0,1,0,5,1,isolation,1
+SCAM_0982,Tax clearance certificate fee required,I prefer to wait for official communication,delaying,emotional_manipulation,6,high,3,4/1/2025 12:31,0,1,0,0,0,0,1,0,0,0,3,1,emotional_manipulation,0
+SCAM_0983,This is 100% legitimate process,The bank confirmed these requirements don't exist,counter_attack,fake_authority,7,high,4,2/4/2025 17:26,0,0,0,0,0,0,0,1,0,0,4,1,fake_authority,1
+SCAM_0984,Security deposit needed for verification,Can you provide official documentation?,counter_attack,fake_fee,9,critical,4,12/12/2024 12:56,0,0,0,0,1,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0985,There are additional fees required for transaction,This doesn't make sense,refusing,fake_fee,7,high,4,3/30/2025 16:33,0,1,0,0,0,0,1,0,0,0,4,1,fake_fee,1
+SCAM_0986,Security deposit needed for verification,I'll report to the authorities,delaying,urgency,7,high,4,5/10/2025 11:20,0,0,0,0,1,0,1,0,0,0,4,1,urgency,1
+SCAM_0987,This is your last chance to withdraw,The bank confirmed these requirements don't exist,questioning,urgency,9,critical,5,9/19/2025 3:18,0,0,0,0,0,0,0,1,0,0,5,1,urgency,1
+SCAM_0988,Account activation charge,I'll think about it,delaying,fake_fee,8,high,3,3/1/2025 14:50,0,1,0,0,0,0,1,0,0,0,3,1,fake_fee,0
+SCAM_0989,Don't talk to the bank about this,I prefer to wait for official communication,refusing,fake_authority,8,high,4,9/4/2025 10:26,0,0,0,0,0,0,0,0,0,0,4,1,fake_authority,1
+SCAM_0990,You need to pay IMF code to withdraw your salary,This is obvious scam,counter_attack,fake_authority,8,high,5,8/12/2025 17:47,0,1,0,0,0,0,1,0,0,0,5,1,fake_authority,1
+SCAM_0991,There are additional fees required for transaction,I work in cybersecurity and I know these tactics,questioning,fake_authority,8,high,4,5/6/2025 3:57,0,1,0,0,0,0,1,0,1,1,4,1,fake_authority,1
+SCAM_0992,You need to pay IMF code to withdraw your salary,I work in cybersecurity and I know these tactics,counter_attack,threat,10,critical,5,5/14/2025 19:17,0,1,0,0,0,0,1,0,1,1,5,1,threat,1
+SCAM_0993,Urgent payment required to unlock funds,Can you provide official documentation?,expert_mention,isolation,9,critical,4,7/24/2025 0:19,1,1,0,0,0,0,2,0,0,0,4,1,isolation,1
+SCAM_0994,There are limited offers today only,Can you provide official documentation?,counter_attack,threat,10,critical,5,10/15/2025 9:13,0,0,0,0,0,0,0,0,0,0,5,1,threat,1
+SCAM_0995,Currency conversion fee mandatory,I'll think about it,questioning,fake_fee,7,high,3,1/15/2025 4:13,0,1,0,0,1,0,2,0,0,0,3,1,fake_fee,0
+SCAM_0996,There are limited offers today only,I prefer to wait for official communication,refusing,emotional_manipulation,5,medium,4,8/26/2025 9:11,0,0,0,0,0,0,0,0,0,0,4,1,emotional_manipulation,1
+SCAM_0997,Trust me my dear,"I have enough money, I don't need to withdraw now",delaying,urgency,8,high,4,1/27/2025 7:17,0,0,2,0,0,0,2,0,1,0,4,1,urgency,1
+SCAM_0998,Document processing fee,I work in cybersecurity and I know these tactics,counter_attack,urgency,8,high,4,7/3/2025 2:35,0,1,0,0,0,0,1,0,1,1,4,1,urgency,1
+SCAM_0999,This is your last chance to withdraw,I need to consult with financial advisor,questioning,fake_fee,9,critical,5,10/15/2025 2:53,0,0,0,0,0,0,0,0,0,0,5,1,fake_fee,1
+SCAM_1000,Emergency service charge,The bank confirmed these requirements don't exist,delaying,fake_fee,10,critical,4,6/28/2025 11:05,0,1,0,0,0,0,1,1,0,0,4,1,fake_fee,1

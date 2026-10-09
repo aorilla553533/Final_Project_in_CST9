@@ -899,8 +899,8 @@ def main() -> None:
 
     try:
         artifacts, metrics, figures = get_state()
-    except Exception as exc:  # surface the real error instead of Streamlit's redacted one
-        st.error(f"Could not load or train the models: {exc}")
+    except Exception as exc:
+        st.exception(exc)
         st.stop()
 
     tab_live, tab_dash = st.tabs(["Analyze a message", "Model dashboard"])

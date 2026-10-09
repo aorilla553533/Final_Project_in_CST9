@@ -1,7 +1,7 @@
-streamlit
-numpy
+flask
 pandas
+numpy
 scikit-learn
-scipy
 matplotlib
 joblib
+scipy
